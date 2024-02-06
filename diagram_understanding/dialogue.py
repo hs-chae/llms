@@ -16,7 +16,7 @@ import base64
 import requests
 import csv
 
-from .prompts.examples import ex_COT, ex_SPP
+#from .prompts.examples import ex_COT, ex_SPP
 
 
 def role_to_color(role):
