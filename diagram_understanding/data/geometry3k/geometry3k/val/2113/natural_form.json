@@ -1,1 +1,33 @@
-{  "text_logic_form": [    "The figure $LMQP$ is a rhombus.",    "The measure of angle $Q$LM is $2x^2 - 10$ degrees.",    "The measure of angle $QPM$ is $8x$ degrees.",    "The length of the line $MP$ is $10$ units.",    "Find the measure of angle $LQP$."  ],  "dissolved_text_logic_form": [    "The figure $LMQP$ is a rhombus.",    "The measure of angle $Q$LM is $2x^2 - 10$ degrees.",    "The measure of angle $QPM$ is $8x$ degrees.",    "The length of the line $MP$ is $10$ units.",    "Find the measure of angle $LQP$."  ],  "diagram_logic_form": [    "The length of the line $MP$ is $10$.",    "Point $R$ lies on the line $LP$.",    "Point $R$ lies on the line $MQ$."  ],  "line_instances": [    "There are lines $LM$, $LP$, $LQ$, $LR$, $MP$, $MQ$, $MR$, $PQ$, $PR$, and $QR$ forming the rhombus $LMQP$.",    "The lines $LM$ and $PQ$ intersect at point $R$."  ],  "point_positions": {    "L": "Point L is positioned at (1.01404959352206, 98.5001812850777).",    "M": "Point M is positioned at (155.53907318896594, 99.57644249438391).",    "P": "Point P is positioned at (279.2193778786047, 0.4704888096677564).",    "Q": "Point Q is positioned at (124.00406237714586, 2.4967894116105356).",    "R": "Point R is positioned at (140.1931330472103, 49.5793991416309)."  },  "circle_instances": []}
+{
+    "text_logic_form": [
+        "The figure $LMQP$ is a rhombus.",
+        "The measure of angle $QLM$ is $2x^2 - 10$ degrees.",
+        "The measure of angle $QPM$ is $8x$ degrees.",
+        "The length of the line $MP$ is $10$ units.",
+        "Find the measure of angle $LQP$."
+    ],
+    "dissolved_text_logic_form": [
+        "The figure $LMQP$ is a rhombus.",
+        "The measure of angle $QLM$ is $2x^2 - 10$ degrees.",
+        "The measure of angle $QPM$ is $8x$ degrees.",
+        "The length of the line $MP$ is $10$ units.",
+        "Find the measure of angle $LQP$."
+    ],
+    "diagram_logic_form": [
+        "The length of the line $MP$ is $10$.",
+        "Point $R$ lies on the line $LP$.",
+        "Point $R$ lies on the line $MQ$."
+    ],
+    "line_instances": [
+        "There are lines $LM$, $LP$, $LQ$, $LR$, $MP$, $MQ$, $MR$, $PQ$, $PR$, and $QR$ forming the rhombus $LMQP$.",
+        "The lines $LM$ and $PQ$ intersect at point $R$."
+    ],
+    "point_positions": {
+        "L": "Point L is positioned at (1.01404959352206, 98.5001812850777).",
+        "M": "Point M is positioned at (155.53907318896594, 99.57644249438391).",
+        "P": "Point P is positioned at (279.2193778786047, 0.4704888096677564).",
+        "Q": "Point Q is positioned at (124.00406237714586, 2.4967894116105356).",
+        "R": "Point R is positioned at (140.1931330472103, 49.5793991416309)."
+    },
+    "circle_instances": []
+}
