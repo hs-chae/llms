@@ -1,0 +1,224 @@
+[
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(l1), p4())',\n'l3 = line(p5(l1), p6())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1), p6())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(), p6())',\n",
+        "name": "lll"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4(l1))',\n'c3 = circle(p5(l1), p6(l1, l2))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4(l1))',\n'c3 = circle(p5(l1), p6())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'c3 = circle(p5(l1), p6())',\n",
+        "name": "llc"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'l4 = line(p4(l1, l2), p5())',\n'l5 = line(p6(l1, l2), p7())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'l4 = line(p4(l1), p5())',\n'l5 = line(p6(l1), p7())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'l4 = line(p4(), p5())',\n'l5 = line(p6(l1), p7())',\n",
+        "name": "tll"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(l2), p6())',\n'l4 = line(p7(c1, l2), p8(l3))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(l2), p6())',\n'l4 = line(p7(c1), p8())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l2), p6())',\n'l4 = line(p7(c1), p8())',\n",
+        "name": "clll"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4(c1))',\n'c3 = circle(p5(c1), p6(c1, c2))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4())',\n'c3 = circle(p5(c1), p6())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4())',\n'c3 = circle(p5(), p6())',\n",
+        "name": "ccc"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1, l2), p6())',\n'l4 = line(p7(l1, l2), p8())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1, l2), p6())',\n'l4 = line(p7(l1), p8())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1), p6())',\n'l4 = line(p7(), p8())',\n",
+        "name": "llll"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(c1, l2), p6(c1))',\n'l4 = line(p6(), p7(c1))',\n'l5 = line(p7(), p5())',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(), p6())',\n'l4 = line(p6(), p7(c1))',\n'l5 = line(p7(), p5())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(), p6())',\n'l4 = line(p6(), p7())',\n'l5 = line(p7(), p5())',\n",
+        "name": "clt"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4())',\n'l3 = line(p5(c1), p6(c1, c2))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4())',\n'l3 = line(p5(), p6(c1, c2))',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4())',\n'l3 = line(p5(), p6(c1))',\n",
+        "name": "ccl"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(l1), p4())',\n'l3 = line(p5(l2), p6())',\n'c4 = circle(p7(l1, l2), p8(l3))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(l1), p4())',\n'l3 = line(p5(l2), p6())',\n'c4 = circle(p7(), p8(l3))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(l1), p4())',\n'l3 = line(p5(l2), p6())',\n'c4 = circle(p7(), p8())',\n",
+        "name": "lllc"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4(c1))',\n'c3 = circle(p5(c1, c2), p6(c1, c2))',\n'c4 = circle(p7(c2, c3), p8(c2, c3))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4(c1))',\n'c3 = circle(p5(c1, c2), p6(c1, c2))',\n'c4 = circle(p7(), p8())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(c1), p4(c1))',\n'c3 = circle(p5(c1, c2), p6())',\n'c4 = circle(p7(), p8())',\n",
+        "name": "cccc"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4(c1))',\n'c3 = circle(p5(), p6(c1, c2))',\n'l4 = line(p7(c1, c2), p8(c1, c2))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4(c1))',\n'c3 = circle(p5(), p6())',\n'l4 = line(p7(c1, c2), p8())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4(c1))',\n'c3 = circle(p5(), p6())',\n'l4 = line(p7(), p8())',\n",
+        "name": "cccl"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1, l2), p6())',\n'l4 = line(p6(), p7())',\n'l5 = line(p7(), p5())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(l1), p6())',\n'l4 = line(p6(), p7())',\n'l5 = line(p7(), p5())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(), p6())',\n'l4 = line(p6(), p7())',\n'l5 = line(p7(), p5())',\n",
+        "name": "llt"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'c2 = circle(p3(l1), p4(l1))',\n'c3 = circle(p5(l1, c2), p6(l1, c2))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'c2 = circle(p3(l1), p4(l1))',\n'c3 = circle(p5(l1, c2), p6(c2))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'c2 = circle(p3(), p4(l1))',\n'c3 = circle(p5(l1), p6(c2))',\n",
+        "name": "lcc"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4(c1))',\n'c3 = circle(p5(), p6(c1, l2))',\n'l4 = line(p7(c1), p8(c3))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'c3 = circle(p5(), p6(c1, l2))',\n'l4 = line(p7(c1), p8())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'c3 = circle(p5(), p6(c1))',\n'l4 = line(p7(c1), p8())',\n",
+        "name": "clcl"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1, l2), p5())',\n'l5 = line(p6(l1, l2), p7(l3))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1, l2), p5())',\n'l5 = line(p6(), p7(l3))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1, l2), p5())',\n'l5 = line(p6(), p7())',\n",
+        "name": "tcl"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4(c1))',\n'c3 = circle(p5(c1), p6(c1))',\n'c4 = circle(p7(c1), p8(c1))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'c3 = circle(p5(c1), p6())',\n'c4 = circle(p7(c1), p8(c1))',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'c3 = circle(p5(c1), p6())',\n'c4 = circle(p7(c1), p8())',\n",
+        "name": "clcc"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1, l2), p5())',\n'c5 = circle(p6(l1, l2), p7(l3))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1), p5())',\n'c5 = circle(p6(l1, l2), p7(l3))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3())',\n'c4 = circle(p4(l1), p5())',\n'c5 = circle(p6(), p7(l3))',\n",
+        "name": "tcc"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4(c1))',\n'l3 = line(p5(c1), p6(c1))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(c1), p4())',\n'l3 = line(p5(c1), p6())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l2 = line(p3(), p4())',\n'l3 = line(p5(c1), p6())',\n",
+        "name": "cll"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'c3 = circle(p5(l1), p6(l1, l2))',\n'c4 = circle(p7(), p8(l1, l2))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'c3 = circle(p5(l1), p6())',\n'c4 = circle(p7(), p8(l1))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n'c3 = circle(p5(l1), p6())',\n'c4 = circle(p7(), p8())',\n",
+        "name": "llcc"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4())',\n'l3 = line(p5(c1, c2), p6(c1, c2))',\n'l4 = line(p6(), p7(c2))',\n'l5 = line(p7(), p5())',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4())',\n'l3 = line(p5(c1, c2), p6())',\n'l4 = line(p6(), p7(c2))',\n'l5 = line(p7(), p5())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'c2 = circle(p3(), p4())',\n'l3 = line(p5(c1, c2), p6())',\n'l4 = line(p6(), p7())',\n'l5 = line(p7(), p5())',\n",
+        "name": "cct"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l2), p6(l2))',\n'c4* = circle(p6(l2), p5(l2))',\n'l3* = line(p7(c3, c4), p8(c3, c4))',\n'c5* = circle(p9(l3), p10(l3))',\n'c6* = circle(p10(l3), p9(l3))',\n'l4* = line(p11(c5, c6), p12(c5, c6))',\n'l5 = line(p13(l1, l2), p14(l2, l3))',\n'l6 = line(p14(l2, l3), p15(l3, l4))',\n'l7 = line(p15(l3, l4), p16(l1, l4))',\n'l8 = line(p16(l1, l4), p13(l1, l2))',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l2), p6(l2))',\n'c4* = circle(p6(l2), p5(l2))',\n'l3* = line(p7(c3, c4), p8(c3, c4))',\n'c5* = circle(p9(l3), p10(l3))',\n'c6* = circle(p10(l3), p9(l3))',\n'l4* = line(p11(c5, c6), p12(c5, c6))',\n'l5 = line(p13(l1, l2), p14(l2, l3))',\n'l6 = line(p14(l2, l3), p15(l3, l4))',\n'l7 = line(p15(l3, l4), p16())',\n'l8 = line(p16(), p13(l1, l2))',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l2), p6(l2))',\n'c4* = circle(p6(l2), p5(l2))',\n'l3* = line(p7(c3, c4), p8(c3, c4))',\n'c5* = circle(p9(l3), p10(l3))',\n'c6* = circle(p10(l3), p9(l3))',\n'l4* = line(p11(c5, c6), p12(c5, c6))',\n'l5 = line(p13(l1, l2), p14(l2, l3))',\n'l6 = line(p14(l2, l3), p15())',\n'l7 = line(p15(), p16())',\n'l8 = line(p16(), p13(l1, l2))',\n",
+        "name": "oblong"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p4(), p5())',\n'l5 = line(p5(), p1())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p4(), p5())',\n'l5 = line(p5(), p6())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p4(), p5())',\n'l5 = line(p7(), p6())',\n",
+        "name": "rectilinear"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l1, l2), p1())',\n'l3 = line(p1(), p6(l2, c3))',\n'l4 = line(p6(l2, c3), p2())',\n'l5 = line(p2(), p7(l2, c3))',\n'l6 = line(p7(l2, c3), p1())',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l1, l2), p1())',\n'l3 = line(p1(), p6(l2, c3))',\n'l4 = line(p6(l2, c3), p2())',\n'l5 = line(p2(), p7(l2))',\n'l6 = line(p7(l2), p1())',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'c3* = circle(p5(l1, l2), p1())',\n'l3 = line(p1(), p6(l2))',\n'l4 = line(p6(l2), p2())',\n'l5 = line(p2(), p7(l2))',\n'l6 = line(p7(l2), p1())',\n",
+        "name": "square"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p3(), p4())',\n",
+        "name": "angle"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1, c2), p4(c1, c2))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1), p4(c1))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1), p4())',\n",
+        "name": "perp_bisector"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3(c1, c2))',\n'l3 = line(p2(), p3()))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3(c1))',\n'l3 = line(p2(), p3()))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3())',\n'l3 = line(p2(), p3()))',\n",
+        "name": "eq_t"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l1 = line(p1(), p3(c1))',\n'l2 = line(p1(), p4(c1))',\n'l3 = line(p1(), p5(c1))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l1 = line(p1(), p3())',\n'l2 = line(p1(), p4(c1))',\n'l3 = line(p1(), p5(c1))',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l1 = line(p1(), p3())',\n'l2 = line(p1(), p4())',\n'l3 = line(p1(), p5(c1))',\n",
+        "name": "radii"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p4(), p1())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p4(), p5())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n'l4 = line(p6(), p5())',\n",
+        "name": "quadrilateral"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'l3 = line(p1(), p3(c1, c2))',\n'l4 = line(p3(c1, c2), p2())',\n'l5 = line(p2(), p4(c1, c2))',\n'l6 = line(p4(c1, c2), p1())',",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1))',\n'l3 = line(p1(), p3(c1, c2))',\n'l4 = line(p3(c1, c2), p2())',\n'l5 = line(p2(), p4(c1))',\n'l6 = line(p4(c1), p1())',",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1), p4(c1))',\n'l3 = line(p1(), p3(c1))',\n'l4 = line(p3(c1), p2())',\n'l5 = line(p2(), p4(c1))',\n'l6 = line(p4(c1), p1())',",
+        "name": "rhombus"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'l3 = line(p5(l1, l2), p6(l2))',\n'l4 = line(p5(l1, l2), p7(l1))',\n'l5 = line(p6(l2), p7(l1))',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'l3 = line(p5(l1, l2), p6())',\n'l4 = line(p5(l1, l2), p7(l1))',\n'l5 = line(p6(), p7(l1))',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2* = line(p3(c1, c2), p4(c1, c2))',\n'l3 = line(p5(l1, l2), p6())',\n'l4 = line(p5(l1, l2), p7())',\n'l5 = line(p6(), p7())',\n",
+        "name": "right_ang_t"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3(c1, c2))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3(c1))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p1(), p3())',\n",
+        "name": "sixty_ang"
+    },
+    {
+        "exact": "'c1 = circle(p1(), p2())',\n'l1 = line(p3(c1), p4(c1))',\n",
+        "close": "'c1 = circle(p1(), p2())',\n'l1 = line(p3(c1), p4())',\n",
+        "far": "'c1 = circle(p1(), p2())',\n'l1 = line(p3(), p4())',\n",
+        "name": "segment"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p4(l1, c2), p3(l1))',\n'c4* = circle(p5(l1, c3), p6(l1, c2))',\n'12 = line(p1(), p7(c1, c2))',\n'13 = line(p7(c1, c2), p8(c3, c4))',\n'14 = line(p8(c3, c4), p4(l1, c2))',\n'15 = line(p4(l1, c2), p1())',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p4(l1, c2), p3(l1))',\n'c4* = circle(p5(l1, c3), p6(l1, c2))',\n'12 = line(p1(), p7(c1, c2))',\n'13 = line(p7(c1, c2), p8(c3, c4))',\n'14 = line(p8(c3, c4), p9(l1))',\n'15 = line(p9(l1), p1())',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p4(l1, c2), p3(l1))',\n'c4* = circle(p5(l1, c3), p6(l1, c2))',\n'12 = line(p1(), p7(c1, c2))',\n'13 = line(p7(c1, c2), p8(c3, c4))',\n'14 = line(p8(c3, c4), p9())',\n'15 = line(p9(), p1())',\n",
+        "name": "rhomboid"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1, c2), p4(c1, c2))',\n'c3 = circle(p5(l1, l2), p3(c1, c2))',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1, c2), p4(c1, c2))',\n'c3 = circle(p5(l1, l2), p6())',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'l2 = line(p3(c1, c2), p4(c1, c2))',\n'c3 = circle(p5(), p6())',\n",
+        "name": "diameter"
+    },
+    {
+        "exact": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p2(), p3(l1))',\n'l2 = line(p4(c1, c2), p5(c1, c2))',\n'l3 = line(p6(c2, c3), p7(c2, c3))',\n",
+        "close": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p2(), p3(l1))',\n'l2 = line(p4(c1, c2), p5(c1, c2))',\n'l3 = line(p6(c2), p7(c2, c3))',\n",
+        "far": "'l1* = line(p1(), p2())',\n'c1* = circle(p1(), p3(l1))',\n'c2* = circle(p3(l1), p1())',\n'c3* = circle(p2(), p3(l1))',\n'l2 = line(p4(c1, c2), p5(c1, c2))',\n'l3 = line(p6(c2), p7(c2))',\n",
+        "name": "parallel_l"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'c3* = circle(p3(c1, c2), p1())',\n'l2 = line(p1(), p3(c1, c2))',\n'l3 = line(p1(), p4(c2, c3))',\n",
+        "close": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'c3* = circle(p3(), p1())',\n'l2 = line(p1(), p3(c1, c2))',\n'l3 = line(p1(), p4(c2, c3))',\n",
+        "far": "'l1 = line(p1(), p2())',\n'c1* = circle(p1(), p2())',\n'c2* = circle(p2(), p1())',\n'c3* = circle(p3(), p1())',\n'l2 = line(p1(), p3())',\n'l3 = line(p1(), p4(c2, c3))',\n",
+        "name": "ang_bisector"
+    },
+    {
+        "exact": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p1())',\n",
+        "close": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p3(), p4())',\n",
+        "far": "'l1 = line(p1(), p2())',\n'l2 = line(p2(), p3())',\n'l3 = line(p5(), p4())',\n",
+        "name": "triangle"
+    }
+]
