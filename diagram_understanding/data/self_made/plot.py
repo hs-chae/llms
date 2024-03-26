@@ -10,7 +10,7 @@ import math
 
 
 fixed_color = 'black'
-fix_color= False
+fix_color= True
 
 def plot_point(ax, label = '', coord = (random.randint(0, 1000),random.randint(0, 1000)), color = random.choice(colors.candidates)):
     if fix_color:
