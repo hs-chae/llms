@@ -65,6 +65,7 @@ def draw_rectangle(labels, coordinate_0, length_0, length_1, angle_0, index):
 
 
 
+
     ax.plot(*zip(*[point_0, point_1, point_3, point_2, point_0]), '-k')
 
     # Label offset for clarity
@@ -186,6 +187,7 @@ def draw_triangle(labels, coordinate_0, length_0, length_1, angle_0, index):
 #     length_0 = random.randint(150, 900)
 #     length_1 = random.randint(150, 900)
 #     angle_0 = random.randint(0, 359)
+#
 #
 #
 #     try:

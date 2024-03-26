@@ -1,0 +1,68 @@
+{
+  "X = angle bisector(A,B,C)" : { "Description": "Construct a point X on the angle bisector of angle ABC"},
+  "X = angle mirror(A,B,C)" : { "Description": "Construct a point X such that BC is a bisector of angle ABX"},
+  "X = circle(A,B,C)" : { "Description": "Construct point X as the circumcenter of triangle ABC"},
+  "A,B,C,D = eq_quadrilateral()" : { "Description":  "Construct a quadrilateral ABCD with AD=BC"},
+  "A,B,C,D = eq_trapezoid() ": { "Description": "Construct a trapezoid ABCD with AB=CD"},
+  "X = eqtriangle(B, C)": { "Description": "Construct X such that XBC is an equilateral triangle" },
+  "A,B,C,D = eqdia_equilateral()": { "Description": "Construct quadrilateral ABCD with AC = BD" },
+  "X = eqdistance(A, B, C)": { "Description": "Construct X such that XA = BC" },
+  "X = foot(A, B, C)": { "Description": "Construct X as the foot of A on BC" },
+  "X = free": { "Description": "Construct a free point X" },
+  "X = incenter(A, B, C)": { "Description": "Construct X as the incenter of ABC" },
+  "X,Y,Z,I = incenter2(A, B, C)": { "Description": "Construct I as the incenter of ABC with touchpoints X, Y, Z" },
+  "X = tangent(O, A)": { "Description": "Construct X such that OA is perpendicular to AX" },
+  "X = midpoint(A, B)": { "Description": "Construct X as the midpoint of AB" },
+  "X = mirror(A, B)": { "Description": "Construct X such that B is the midpoint of AX" },
+  "X = rotate90(A, B)": { "Description": "Construct X such that AXB is a right isosceles triangle" },
+  "X = on_bline(X, A, B)": { "Description": "Construct X on the perpendicular bisector of AB" },
+  "X = on_circle(O, A)": { "Description": "Construct X such that OA = OX" },
+  "X = on_line(A, B)": { "Description": "Construct X on line AB" },
+  "X = on_pline(A, B, C)": { "Description": "Construct X such that XA is parallel to BC" },
+  "X = parallelogram(A, B, C)": { "Description": "Construct X such that ABCX is a parallelogram" },
+  "A, B, C, D, E = pentagon()": { "Description": "Construct pentagon ABCDE" },
+  "A, B, C, D = quadrilateral()": { "Description": "Construct quadrilateral ABCD" },
+  "A, B, C, D = trapezoid()": { "Description": "Construct right trapezoid ABCD" },
+  "A, B, C = r_triangle()": { "Description": "Construct right triangle ABC" },
+  "A, B, C, D = rectangle()": { "Description": "Construct rectangle ABCD" },
+  "X = reflect(A, B, C)": { "Description": "Construct X as the reflection of A about BC" },
+  "A, B, C = risos()": { "Description": "Construct right isosceles triangle ABC" },
+  "X = angle(A, B, α)": { "Description": "Construct X such that ∠ABX = α" },
+  "X Y = square(A, B)": { "Description": "Construct X, Y such that XYAB is a square" },
+  "A, B, C, D = init_square()": { "Description": "Construct square ABCD" },
+  "A, B, C, D = trapezoid()": { "Description": "Construct trapezoid ABCD" },
+
+  "A, B, C = triangle()": { "Description": "Construct triangle ABC" },
+  "A, B, C = triangle12()": { "Description": "Construct trianglel ABC with AB:AC = 1:2" },
+  "X, Y = trisect(A, B, C)": { "Description": "Construct X, Y on AC such that BX and BY trisect ∠ABC" },
+
+  "X, Y = trisegment(A, B)": { "Description": "Construct X, Y on segment AB such that AX=XY=YB" },
+  "A, B, C = ietriangle()": { "Description": "Construct equilateral triangle ABC" },
+
+  "X,Y,Z,T = cc_tangent(O, A, W, B)": {
+    "Description": "Construct common tangents of circles (O, A) and (W, B) with touchpoints X, Y for one tangent and Z, T for the other."
+  },
+  "X = eqangle3(A, B, D, E, F)": {
+    "Description": "Construct point X such that ∠AXB = ∠EDF"
+  },
+  "X, Y = tangent(A, O, B)": {
+    "Description": "Construct points X, Y as the tangent touch points from A to circle (O, B)"
+  },
+  "X = intersect(f, g)": {
+    "Description": "Construct point X as the intersection of two functions f() and g(), where f() and g() is any of the above functions that returns more than one possible construction."
+  },
+
+  "X = eqangle2(A, B, C)": { "Description": "Construct X such that ∠BAX = ∠XCB" },
+  "X = excenter(A, B, C)" : { "Description": "Construct X as the excenter of ABC" },
+  "X,Y,Z,I = excenter2(A,B,C)": { "Description": "Construct X as the excenter of ABC with touchpoints X, Y, Z" },
+  "X = centroid(A,B,C)": { "Description": "Construct X as the centroid of ABC" },
+  "X,Y,Z,I = midpointcircle(A,B,C)": { "Description": "Construct X, Y, Z as the midpoints of triangle ABC, and I as the circumcenter of XYZ" },
+  "A,B,C = isos()": { "Description": "Construct A, B, C such that AB = AC" },
+  "X = on_aline(A, B, C, D, E)": { "Description": "Construct X such that ∠XAB = ∠CDE" },
+  "X = on_tline(A, B, C)": { "Description": "Construct X such that XA is perpendicular to BC" },
+  "X = orthocenter(A, B, C)": { "Description": "Construct X as the orthocenter of ABC" },
+  "A, B = segment()": { "Description": "Construct two distinct points A, B" },
+  "X = shift(B, C, D)": { "Description": "Construct point X such that XB=CD and XC=BD" },
+  "X,Y,Z,I = 2L1C(A, B, C, O)": { "Description": "Construct circle center I that touches line AC and line BC and circle (O, A) at X, Y, Z" },
+  "X = on_dia(A, B)": { "Description": "Construct point X such that AX is perpendicular to BX" }
+}
