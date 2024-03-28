@@ -34,10 +34,6 @@ entity_count = {key: 0 for key in caption_dict.keys()}
 with open('questions.json') as file:
     question_data = json.load(file)
     caption_question = question_data['caption']
-    positive_mining = question_data['positive_mining']
-    negative_mining = question_data['negative_mining']
-    conversation_general = question_data['conversation_general']
-    not_existing = question_data['not_existing']
     TF_data = question_data['TF']
     nTF_data = question_data['not_existing_TF']
 
@@ -78,6 +74,7 @@ def generate_caption(diagram):
         for point in diagram.points:
             sentence = "There is a point " + point.label + "."
             caption += sentence + " "
+
     else:
         for entity in entities:
             sentence = complete_sentence(entity)
@@ -101,10 +98,10 @@ def create_diagram(num_entities):
         else:
             indx += 1
 
-        print(f"Current points count : {num_points}" )
-        print(f"Current Step : {diagram.steps[-1] if len(diagram.steps) > 0 else 'None'}")
-        print(f"Points added count : {len(diagram.points) - num_points}")
-        print("index : ", indx)
+        # print(f"Current points count : {num_points}" )
+        # print(f"Current Step : {diagram.steps[-1] if len(diagram.steps) > 0 else 'None'}")
+        # print(f"Points added count : {len(diagram.points) - num_points}")
+        # print("index : ", indx)
         num_points = len(diagram.points)
     return diagram
 
@@ -132,53 +129,53 @@ def diagram_data(diagram, i,j, directory, conversation):
     }
     return final_data, id_name, img_path
 
-def generate_question_general(diagram):
-    question_type = random.choice(["count_p", "count_l", "count_c"])
-    question = random.choice(conversation_general[question_type])
-    if question_type == "count_p":
-        num_p = len(diagram.points)
-        if random.choice([True, False]):
-            answer = random.choice(["There are " + str(num_p) + " points.","I see " + str(num_p) + " points.","There are " + str(num_p) + " points in the diagram.", str(num_p)])
-        else:
-            answer = random.choice([f"The points described in the diagram are ", f"The points in the diagram are "])
-            for point in diagram.points:
-                answer += point.label + ", "
-            answer = answer[:-2] + random.choice([". We have " + str(num_p) + " points.", ". There are " + str(num_p) + " points."])
-        if num_p == 0:
-            answer = random.choice([ "There are no points in the diagram.", "0.", "There are no points.", "I see no points."])
-        elif num_p == 1:
-            answer = random.choice([ "There is only one point in the diagram.", "1.", "There is one point.", "I see one point."])
-    elif question_type == "count_l":
-        num_l = len(diagram.lines)
-        if random.random() < 0.8:
-            answer = random.choice(["There are " + str(num_l) + " lines.","I see " + str(num_l) + " lines.","There are " + str(num_l) + " lines in the diagram.", str(num_l)])
-        else:
-            answer = random.choice([f"The lines described in the diagram are ", f"The lines in the diagram are "])
-            for line in diagram.lines:
-                answer += f"{line.point1.label}{line.point2.label}, "
-            answer = answer[:-2] + random.choice([". We have " + str(num_l) + " lines.", ". There are " + str(num_l) + " lines."])
-        if num_l == 0:
-            answer = random.choice([ "There are no lines in the diagram.", "0.", "There are no lines.", "I see no lines."])
-        elif num_l == 1:
-            answer = random.choice([ "There is only one line in the diagram.", "1.", "There is one line.", "I see one line."])
-
-    elif question_type == "count_c":
-        assert len(diagram.circles) > 0
-        num_c = len(diagram.circles)
-        if random.choice([True, False]):
-            answer = random.choice(["There are " + str(num_c) + " circles.","I see " + str(num_c) + " circles.","There are " + str(num_c) + " circles in the diagram.", str(num_c)])
-        else:
-            answer = random.choice([f"The circles described in the diagram are ", f"The circles in the diagram are ", f"There are circles with centers "])
-            for circle in diagram.circles:
-                answer += circle.center.label + ", "
-            answer = answer[:-2] + random.choice([". We have " + str(num_c) + " circles.", ". There are " + str(num_c) + " circles."])
-        if num_c == 0:
-            answer = random.choice([ "There are no circles in the diagram.", "0.", "There are no circles.", "I see no circles."])
-        elif num_c == 1:
-            answer = random.choice([ "There is only one circle in the diagram.", "1.", "There is one circle.", "I see one circle."])
-    else: answer = "I don't know."
-
-    return question, answer
+# def generate_question_general(diagram):
+#     question_type = random.choice(["count_p", "count_l", "count_c"])
+#     question = random.choice(conversation_general[question_type])
+#     if question_type == "count_p":
+#         num_p = len(diagram.points)
+#         if random.choice([True, False]):
+#             answer = random.choice(["There are " + str(num_p) + " points.","I see " + str(num_p) + " points.","There are " + str(num_p) + " points in the diagram.", str(num_p)])
+#         else:
+#             answer = random.choice([f"The points described in the diagram are ", f"The points in the diagram are "])
+#             for point in diagram.points:
+#                 answer += point.label + ", "
+#             answer = answer[:-2] + random.choice([". We have " + str(num_p) + " points.", ". There are " + str(num_p) + " points."])
+#         if num_p == 0:
+#             answer = random.choice([ "There are no points in the diagram.", "0.", "There are no points.", "I see no points."])
+#         elif num_p == 1:
+#             answer = random.choice([ "There is only one point in the diagram.", "1.", "There is one point.", "I see one point."])
+#     elif question_type == "count_l":
+#         num_l = len(diagram.lines)
+#         if random.random() < 0.8:
+#             answer = random.choice(["There are " + str(num_l) + " lines.","I see " + str(num_l) + " lines.","There are " + str(num_l) + " lines in the diagram.", str(num_l)])
+#         else:
+#             answer = random.choice([f"The lines described in the diagram are ", f"The lines in the diagram are "])
+#             for line in diagram.lines:
+#                 answer += f"{line.point1.label}{line.point2.label}, "
+#             answer = answer[:-2] + random.choice([". We have " + str(num_l) + " lines.", ". There are " + str(num_l) + " lines."])
+#         if num_l == 0:
+#             answer = random.choice([ "There are no lines in the diagram.", "0.", "There are no lines.", "I see no lines."])
+#         elif num_l == 1:
+#             answer = random.choice([ "There is only one line in the diagram.", "1.", "There is one line.", "I see one line."])
+#
+#     elif question_type == "count_c":
+#         assert len(diagram.circles) > 0
+#         num_c = len(diagram.circles)
+#         if random.choice([True, False]):
+#             answer = random.choice(["There are " + str(num_c) + " circles.","I see " + str(num_c) + " circles.","There are " + str(num_c) + " circles in the diagram.", str(num_c)])
+#         else:
+#             answer = random.choice([f"The circles described in the diagram are ", f"The circles in the diagram are ", f"There are circles with centers "])
+#             for circle in diagram.circles:
+#                 answer += circle.center.label + ", "
+#             answer = answer[:-2] + random.choice([". We have " + str(num_c) + " circles.", ". There are " + str(num_c) + " circles."])
+#         if num_c == 0:
+#             answer = random.choice([ "There are no circles in the diagram.", "0.", "There are no circles.", "I see no circles."])
+#         elif num_c == 1:
+#             answer = random.choice([ "There is only one circle in the diagram.", "1.", "There is one circle.", "I see one circle."])
+#     else: answer = "I don't know."
+#
+#     return question, answer
 
 def generate_question_positive_mining(entity):
     key = entity[0]
@@ -192,18 +189,6 @@ def generate_question_positive_mining(entity):
         return question, answer
     except: print(f"Error with entity : {entity} and type: positive_mining")
 
-def generate_question_negative_mining(entity):
-    key = entity[0]
-    question, answer = random.choice(negative_mining[key])
-    inputs = entity[1]
-    try:
-        inputs.append(random.choice(capitals.candidates))
-
-        for i in range(len(inputs)):
-            question = question.replace(f'<{i+1}>', inputs[i])
-            answer = answer.replace(f'<{i+1}>', inputs[i])
-        return question, answer
-    except: print(f"Error with entity : {entity} and type: negative_mining")
 
 def generate_not_existing(diagram):
     ind = 0
@@ -223,23 +208,15 @@ def generate_not_existing(diagram):
 def generate_full_conversation(diagram):
     conversation = []
     added_caption = False
-    max_num_rounds = random.randint(2, 5)
+    max_num_rounds = 3
     num_round = 0
     while num_round < max_num_rounds:
         try:
-            conv_type = random.choice(["general", "positive_mining", "negative_mining", "not_existing","caption","positive_mining", "negative_mining"])
-            if conv_type == "caption" and not added_caption:
-                added_caption = True
-                if random.random() < 0.1:
-                    answer = generate_caption(diagram)
-                    question = random.choice(caption_question)
-            elif conv_type == "general":
-                question, answer = generate_question_general(diagram)
+            conv_type = random.choice(["TF","not_existing_TF"])
+
             elif conv_type == "positive_mining":
                 entity = random.choice(diagram.entities)
                 question, answer = generate_question_positive_mining(entity)
-            elif conv_type == "negative_mining":
-                entity = random.choice(diagram.entities)
                 question, answer = generate_question_negative_mining(entity)
             elif conv_type == "not_existing":
                 question, answer = generate_not_existing(diagram)

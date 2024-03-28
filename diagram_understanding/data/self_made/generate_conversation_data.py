@@ -97,11 +97,11 @@ def create_diagram(num_entities):
             break
         else:
             indx += 1
-
-        print(f"Current points count : {num_points}" )
-        print(f"Current Step : {diagram.steps[-1] if len(diagram.steps) > 0 else 'None'}")
-        print(f"Points added count : {len(diagram.points) - num_points}")
-        print("index : ", indx)
+        #
+        # print(f"Current points count : {num_points}" )
+        # print(f"Current Step : {diagram.steps[-1] if len(diagram.steps) > 0 else 'None'}")
+        # print(f"Points added count : {len(diagram.points) - num_points}")
+        # print("index : ", indx)
         num_points = len(diagram.points)
     return diagram
 
