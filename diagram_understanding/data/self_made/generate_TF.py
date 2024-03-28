@@ -13,7 +13,7 @@ from labels import *
 
 plt.ioff()  # Turn off interactive mode
 num_entities = 10
-num_images = 10
+num_images = 1000
 balance_limit = 0.2 * num_images
 
 
@@ -177,31 +177,34 @@ def diagram_data(diagram, i,j, directory, conversation):
 #
 #     return question, answer
 
-def generate_question_positive_mining(entity):
+def generate_TF(entity):
     key = entity[0]
-    question, answer = random.choice(positive_mining[key])
+    question, answer = random.choice(TF_data[key])
     inputs = entity[1]
     try:
         inputs.append(random.choice(capitals.candidates))
         for i in range(len(inputs)):
             question = question.replace(f'<{i+1}>', inputs[i])
-            answer = answer.replace(f'<{i+1}>', inputs[i])
+            answer = answer
         return question, answer
-    except: print(f"Error with entity : {entity} and type: positive_mining")
+    except: print(f"Error with entity : {entity} and type: TF")
 
 
-def generate_not_existing(diagram):
+def generate_not_existin_TF(diagram):
     ind = 0
     entity_list = [entity[0] for entity in diagram.entities]
     while True:
-        key = random.choice(entity_count.keys())
+        key = random.choice(list(entity_count.keys()))
+
         if key not in entity_list:
             break
         if ind > 10:
             raise ValueError("No non-existing entity found")
         ind += 1
 
-    question, answer = random.choice(not_existing[key])
+
+    question, answer = random.choice(nTF_data[key])
+    print(f"question : {question}, answer : {answer}")
     return question, answer
 
 
@@ -210,18 +213,21 @@ def generate_full_conversation(diagram):
     added_caption = False
     max_num_rounds = 3
     num_round = 0
+    entnum = len(diagram.entities) if len(diagram.entities) > 0 else 1
+    TF_count = 0
     while num_round < max_num_rounds:
         try:
             conv_type = random.choice(["TF","not_existing_TF"])
-
-            elif conv_type == "positive_mining":
+            if conv_type == "TF" and TF_count < entnum + 1:
                 entity = random.choice(diagram.entities)
-                question, answer = generate_question_positive_mining(entity)
-                question, answer = generate_question_negative_mining(entity)
-            elif conv_type == "not_existing":
-                question, answer = generate_not_existing(diagram)
+                question, answer = generate_TF(entity)
+                TF_count += 1
+
             else:
-                raise ValueError("Invalid conversation type")
+                question, answer = generate_not_existin_TF(diagram)
+
+
+
 
             if num_round == 0:
                 if random.random() > 0.5:
@@ -239,7 +245,9 @@ def generate_full_conversation(diagram):
                 }]
             )
             num_round += 1
-        except : pass
+
+        except :
+            pass
 
 
     return conversation
@@ -279,7 +287,9 @@ while i < num_images:
         directory = f"./GOVU_data/{type_path}/{diagram_entitiy_count}"
 
         image_count = count_files(directory)
-        print(f"image_count : {image_count}")
+        # print(f"image_count : {image_count}")
+        if diagram_entitiy_count == 0 and image_count >10:
+            continue
         os.makedirs(directory, exist_ok=True)
         if image_count < balance_limit:
             data, unique_id, image_path = diagram_data(diagram, image_count, diagram_entitiy_count, directory, generate_full_conversation(diagram))
@@ -288,13 +298,13 @@ while i < num_images:
             with open(f"./GOVU_data/{type_path}/qa.json", "a") as file:
                 json.dump(data, file)
                 file.write("\n")
-            print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
+            # print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
             i += 1
         if image_count > 0.9 * balance_limit and j < num_entities:
             j += 1
         plt.close(fig)
 
-        print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}, num_rounds = {len(data['conversations'])}")
+        # print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}, num_rounds = {len(data['conversations'])}")
         for entity in diagram.entities:
             entity_count[entity[0]] += 1
     except:

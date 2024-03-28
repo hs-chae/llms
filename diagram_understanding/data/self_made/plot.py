@@ -285,4 +285,4 @@ def plot_diagram(ax, diagram):
     # for square in diagram.squares:
     #     plot_square(ax, label='', point1=square.point1, point2=square.point2, point3=square.point3, point4=square.point4)
 
-    plt.show()
+    # plt.show()

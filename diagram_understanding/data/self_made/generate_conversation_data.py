@@ -13,7 +13,7 @@ from labels import *
 
 plt.ioff()  # Turn off interactive mode
 num_entities = 10
-num_images = 10
+num_images = 50000
 balance_limit = 0.2 * num_images
 
 
@@ -203,10 +203,12 @@ def generate_question_negative_mining(entity):
     except: print(f"Error with entity : {entity} and type: negative_mining")
 
 def generate_not_existing(diagram):
+
     ind = 0
     entity_list = [entity[0] for entity in diagram.entities]
     while True:
-        key = random.choice(entity_count.keys())
+        key = random.choice(list(entity_count.keys()))
+
         if key not in entity_list:
             break
         if ind > 10:
@@ -299,7 +301,9 @@ while i < num_images:
         directory = f"./GOVU_data/{type_path}/{diagram_entitiy_count}"
 
         image_count = count_files(directory)
-        print(f"image_count : {image_count}")
+        if diagram_entitiy_count == 0 and image_count >10:
+            continue
+        # print(f"image_count : {image_count}")
         os.makedirs(directory, exist_ok=True)
         if image_count < balance_limit:
             data, unique_id, image_path = diagram_data(diagram, image_count, diagram_entitiy_count, directory, generate_full_conversation(diagram))
@@ -308,13 +312,13 @@ while i < num_images:
             with open(f"./GOVU_data/{type_path}/qa.json", "a") as file:
                 json.dump(data, file)
                 file.write("\n")
-            print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
+            # print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
             i += 1
         if image_count > 0.9 * balance_limit and j < num_entities:
             j += 1
         plt.close(fig)
 
-        print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}, num_rounds = {len(data['conversations'])}")
+        # print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}, num_rounds = {len(data['conversations'])}")
         for entity in diagram.entities:
             entity_count[entity[0]] += 1
     except:

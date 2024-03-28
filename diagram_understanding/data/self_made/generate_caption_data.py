@@ -12,10 +12,10 @@ import os
 
 plt.ioff()  # Turn off interactive mode
 num_entities = 10
-num_images = 200
+num_images = 20000
 balance_limit = 0.2 * num_images
 
-type_path = "caption_color"
+type_path = "caption"
 #create the directory if it doesn't exist
 os.makedirs(f'./GOVU_data/{type_path}', exist_ok=True)
 
@@ -42,7 +42,7 @@ def count_files(directory):
 
 def complete_sentence(entity):
         key = entity[0]
-        print(f"Current step : entity, key = {entity}, {key}")
+        # print(f"Current step : entity, key = {entity}, {key}")
         sentence = random.choice(caption_dict[key])
         inputs = entity[1]
         for i in range(len(inputs)):
@@ -77,7 +77,7 @@ def generate_caption(diagram):
 
 def create_diagram(num_entities):
     diagram = Diagram(points=[], lines=[], circles=[], triangles=[], squares=[], steps=[])
-    print(f"length of diagram.points : {len(diagram.points)}")
+    # print(f"length of diagram.points : {len(diagram.points)}")
 
     indx = 0
     num_points = 0
@@ -146,7 +146,7 @@ for i in range(20):
     with open(file_path, 'a'):
         pass
 
-print("Directories and files created successfully.")
+# print("Directories and files created successfully.")
 
 i,j = 0, 3
 
@@ -167,7 +167,9 @@ while i < num_images:
         directory = f"./GOVU_data/{type_path}/{diagram_entitiy_count}"
 
         image_count = count_files(directory)
-        print(f"image_count : {image_count}")
+        # print(f"image_count : {image_count}")
+        if diagram_entitiy_count == 0 and image_count >10:
+            continue
         os.makedirs(directory, exist_ok=True)
         if image_count < balance_limit:
             data, unique_id, image_path = diagram_data(diagram, image_count, diagram_entitiy_count, directory)
@@ -176,13 +178,13 @@ while i < num_images:
             with open(f"./GOVU_data/{type_path}/qa.json", "a") as file:
                 json.dump(data, file)
                 file.write("\n")
-            print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
+            # print(f"Saved image {diagram_entitiy_count}/{unique_id}.png")
             i += 1
         if image_count > 0.9 * balance_limit and j < num_entities:
             j += 1
         plt.close(fig)
 
-        print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}")
+        # print(f"diagram_entitiy_count : {diagram_entitiy_count}, image_count : {image_count}")
         for entity in diagram.entities:
             entity_count[entity[0]] += 1
     except:
