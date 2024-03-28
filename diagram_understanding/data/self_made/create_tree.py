@@ -30,8 +30,8 @@ rules_list = [rule for rule in rules_list if rule[1] not in ['random_angle', 'ra
 no_circle_rules = [rule for rule in rules_list if rule[1] not in ['add_free_circle', 'add_circle', 'circle_with_radius',]]
 
 test_rules = [
-    (c_tangent,'c_tangent'),
-    #(cc_tangent,'cc_tangent'), (cc_tangent_one, 'cc_tangent_one'),
+
+    (cc_tangent,'cc_tangent'), #(cc_tangent_one, 'cc_tangent_one'),
     (add_free_circle, 'add_free_circle')
 
     # (init_square, 'init_square')
@@ -122,13 +122,39 @@ print(len(rules_list))
 # print(f'diagram squares : {[square.label for square in diagram.squares]}')
 # print(f'steps : {diagram.steps}')
 
-lst = ("A","B","C")
-print(lst)
-lst = [input for input in lst]
-lst.append(random.choice(capitals.candidates))
-sent = "<1> then <2> and <3>"
+#
+# tensor = torch.tensor([[-1.0, 0.0, 1.0],
+#                        [-0.5, 2.0, -2.0]])
+# relu_tensor = F.relu(tensor)
+#
+# print("Original tensor:")
+# print(tensor)
+# print("\nTensor after ReLU:")
+# print(relu_tensor)
 
-for i in range(len(lst)):
-    sent = sent.replace(f"<{i+1}>", lst[i])
-print(lst)
+# print(torch.nn.Parameter(torch.ones(4) ** -0.5))
 
+class SimplifiedRMSNorm(torch.nn.Module):
+    def __init__(self, hidden_size: int, eps: float = 1e-6):
+        super().__init__()
+        self.eps = eps
+        self.learnable_scale = torch.nn.Parameter(torch.ones(hidden_size) ** -0.5)
+
+    def _norm(self, x):
+        # Compute the root mean square value and apply reciprocal square root normalization
+        return x * torch.rsqrt(x.pow(2).mean(-1, keepdim=True) + self.eps)
+
+# Example usage
+hidden_size = 3  # For a 2x3 tensor
+norm_layer = SimplifiedRMSNorm(hidden_size)
+
+# Create a 2x3 tensor with arbitrary values
+x = torch.tensor([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
+
+# Apply the _norm method
+normalized_x = norm_layer._norm(x)
+
+print("Original Tensor:")
+print(x)
+print("\nNormalized Tensor:")
+print(normalized_x)

@@ -1231,6 +1231,7 @@ def trapezoid(diagram : Diagram):
 def r_triangle(diagram):
     A, B = random.sample(diagram.points, 2)
     perp_vector = (B.y - A.y, A.x - B.x)
+    ind = 0
     while True:
         scale = random.uniform(-4, 4)
         C_x = A.x + scale * perp_vector[0]
@@ -1238,6 +1239,9 @@ def r_triangle(diagram):
         C_label = label_point(diagram)
         if assert_coord_in_range(C_x, C_y):
             break
+        if ind > 30:
+            return diagram
+        ind+=1
 
     C = Point(C_x, C_y, C_label)
     diagram.points.append(C)
@@ -1253,6 +1257,7 @@ def rectangle(diagram):
     A, B = random.sample(diagram.points, 2)
     vector = (B.x - A.x, B.y - A.y)
     perp_vector = (vector[1], -vector[0])
+    ind = 0
     while True:
         scale = random.uniform(-4, 4)
         C_x = B.x + scale * perp_vector[0]
@@ -1263,7 +1268,9 @@ def rectangle(diagram):
         D_label = label_point(diagram)
         if assert_coord_in_range(C_x, C_y) and assert_coord_in_range(D_x, D_y) and D_label != C_label:
             break
-
+        if ind>30:
+            return diagram
+        ind +=1
     C = Point(C_x, C_y, C_label)
     D = Point(D_x, D_y, D_label)
     diagram.points.extend([C, D])
@@ -1621,14 +1628,21 @@ def c_tangent(d):
 
 
 def cc_tangent(d):
-    c1 = random.choice(d.circles)
-    c1_center = c1.center
-    c1_radius = c1.radius
+    c1_center = random.choice(d.points)
+    ind = 0
+    while True:
+        c1_radius = random.uniform(200, 400)
+        if assert_coord_in_range(c1_center.x + c1_radius, c1_center.y + c1_radius) and assert_coord_in_range(c1_center.x - c1_radius, c1_center.y - c1_radius):
+            break
+        if ind > 30:
+            return d
+        ind += 1
+
     ind = 0
     while True:
         x, y = random_coord(), random_coord()
         length = np.linalg.norm([x - c1_center.x, y - c1_center.y])
-        if length > 3 * c1_radius:
+        if length > 2 * c1_radius:
             break
         if ind > 100:
             return d
@@ -1655,7 +1669,7 @@ def cc_tangent(d):
     vec_x, vec_y = c1_center.x - x, c1_center.y - y
     ind = 0
     while True:
-        scale = random. uniform(0.2, 1)
+        scale = random. uniform(0.5, 1)
         x1, y1 = x + scale * vec_x, y + scale * vec_y
         rad_1 = c1_radius * scale
         if np.linalg.norm([x1 - c1_center.x, y1 - c1_center.y]) > c1_radius + rad_1:
@@ -1673,6 +1687,7 @@ def cc_tangent(d):
     d.points.extend([t1,t2])
     d.points.append(c2.center)
     d.circles.append(c2)
+    d.circles.append(Circle(c1_center, c1_radius, f"{c1_center.label, c1_radius}"))
 
 
     d.points.extend([p1, p2, P])
@@ -2687,21 +2702,30 @@ def l_out_c(d):
     center = c.center
     radius = c.radius
 
+
+    ind = 0
     while True:
         angle1 = random_angle()
-        angle2 = random.uniform(angle1 + np.pi / 4, angle1 + np.pi * 7 / 4)
-        ratio1 = random.uniform(1.2, 5)
-        ratio2 = random.uniform(1.2, 5)
-        x1, y1 = center.x + radius * np.cos(angle1)*ratio1, center.y + radius * np.sin(angle1)*ratio1
-        x2, y2 = center.x + radius * np.cos(angle2)*ratio2, center.y + radius * np.sin(angle2)*ratio2
+        angle2 = random.uniform(np.pi / 6, angle1 + np.pi /3)
+        ratio1 = random.uniform(2, 5)
+        ratio2 = random.uniform(2, 5)
+        x1, y1 = center.x + radius * np.cos(angle1+angle2)*ratio1, center.y + radius * np.sin(angle1+angle2)*ratio1
+        x2, y2 = center.x + radius * np.cos(angle1-angle2)*ratio2, center.y + radius * np.sin(angle1-angle2)*ratio2
         if assert_coord_in_range(x1, y1) and assert_coord_in_range(x2, y2):
             break
+        if ind > 30:
+            return d
+        ind += 1
 
+    ind=0
     while True:
         label1 = label_point(d)
         label2 = label_point(d)
         if label1 != label2:
             break
+        if ind > 30:
+            return d
+        ind +=1
     p1 = Point(x1, y1, label1)
     p2 = Point(x2, y2, label2)
     d.points.extend([p1, p2])

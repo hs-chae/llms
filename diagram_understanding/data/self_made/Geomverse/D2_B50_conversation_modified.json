@@ -1,0 +1,4268 @@
+[
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/887.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc length of 23.13. There is a rectangle BCDE where the length of the CD side is 13. On one side of the rectangle BCDE, the BE side is replaced with a semi-circle arc facing inwards. The area of the BCDE shape is given as 126."
+            },
+            {
+                "from": "human",
+                "value": "Is there a square in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no square in the image. There is only a rectangle BCDE."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of sector ABC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the sector ABC is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/888.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCDE which is formed by adding an equilateral triangle AED to the AD side of a rectangle ABCD. The equilateral triangle AED has a height of 6 units. There is a gray semi-circle with AB as the diameter. The area of the gray semi-circle is given as 157 units. The task is to compute the perimeter of the ABCDE shape."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a gray semi-circle with AB as the diameter."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "To compute the perimeter of the shape, we need the lengths of the sides of the rectangle ABCD and the equilateral triangle AED. However, the lengths of the sides are not provided in the image, so the perimeter cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/889.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two parallelograms, ABCD and AEFB, with a shape ADGHI formed by combining a rectangle ADGH and an equilateral triangle AIH. The parallelogram ABCD has an area of 120 and the parallelogram AEFB has a perimeter of 40. The shape ADGHI has a perimeter of 96 and the length of side DG is 16. The angle DAB is being asked to be calculated, rounded to 2 decimal places."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of parallelogram ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of parallelogram ABCD is 120."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of parallelogram AEFB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of parallelogram AEFB is 40."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of shape ADGHI?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of shape ADGHI is 96."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side DG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side DG is 16."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, the angle DAB can be calculated. However, to calculate it, we need the lengths of the sides of the triangle AIH, which are not provided in the image. So, the angle DAB cannot be calculated based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/89.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD and an equilateral triangle AED. There is also a square AFGB."
+            },
+            {
+                "from": "human",
+                "value": "What is the height of the equilateral triangle AED?"
+            },
+            {
+                "from": "assistant",
+                "value": "The height of the equilateral triangle AED is 6 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the square AFGB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the square AFGB is 100 square units."
+            },
+            {
+                "from": "human",
+                "value": "Can you find the area of the entire shape ABCDE?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, to find the area of the entire shape ABCDE, we need to find the sum of the areas of the rectangle ABCD and the equilateral triangle AED. Since the height of the equilateral triangle AED is 6 units, and the base of the equilateral triangle AED is the same as the length of the rectangle ABCD, we can use the formula for the area of a triangle, which is (base * height) / 2. The area of the rectangle ABCD is given by length * width. By substituting the values, we can calculate the area of the entire shape ABCDE."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/890.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. On the left side of the triangle ABC, there is a sector DBE with the arc being from D to E. The length of the BD side is 24 and the arc length of the DBE sector is 15.42. The angle DBE is vertical to CBA. On the right side of the triangle ABC, there is a sector FAG with the arc being from F to G. The length of the AF side is 22 and the arc length of the FAG sector is 15.42. The angle BAC is vertical to FAG."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/178.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc being from A to C. The length of side BC is 18 units. The angle CBD is 50 degrees and the adjacent angles CBA and CBD are complementary."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the arc length of the ABC sector?"
+            },
+            {
+                "from": "assistant",
+                "value": "The arc length of the ABC sector cannot be determined with the given information. We need the measure of the central angle or the radius of the circle to calculate it."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/891.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD with a triangle ADE inside it. The length of side AE is 22 units and the length of side DE is 16 units. The perimeter of the triangle ADE is given as 56 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AD is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/892.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC with side lengths AB = 22, AC = ?, and BC = ?. On one side of the triangle, there is a shape ACDE, which is a rectangle with one side replaced by a semi-circle arc facing inwards. The length of the side CD of the rectangle is 6. The area of the shape ACDE is given as 84. The brown semi-circle has BC as its diameter and its circumference is 41.12. The question asks to compute the area of triangle ABC."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a brown semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/893.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a trapezoid ABCD with two parallel sides, AB and CD. There is also a sector EBC, which is a portion of a circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AD is 16 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the height of the trapezoid?"
+            },
+            {
+                "from": "assistant",
+                "value": "The height of the trapezoid is 5 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle CBE?"
+            },
+            {
+                "from": "assistant",
+                "value": "The angle CBE is 40 degrees."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the sector EBC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the sector EBC is given as 189.97 square units."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the area of the trapezoid ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, the area of the trapezoid ABCD can be calculated using the formula: Area = (AB + CD) * height / 2. However, the lengths of sides AB and CD are not provided in the image, so the area of the trapezoid cannot be computed."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/894.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. The angle CAB is labeled as 40 degrees and the angle BCA is labeled as 45 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/895.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC and a square BDEC. The sector is formed by an arc drawn from point A to point C."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the square?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the square BDEC is 80 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the arc length of the sector?"
+            },
+            {
+                "from": "assistant",
+                "value": "The arc length of the sector ABC is 20.56 units."
+            },
+            {
+                "from": "human",
+                "value": "Can you find the measure of the angle CBA in degrees?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, we can find the measure of the angle CBA. However, the information needed to calculate the angle is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/896.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a length of 10 units and an unknown width. On the AF side of the rectangle, there is a shape ABEFG, which is formed by adding an equilateral triangle AGF to the AF side of a rectangle ABEF. The length of the BE side of the rectangle ABEF is 7 units. The area of the ABEFG shape is given as 84 units^2."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "To calculate the area of the rectangle ABCD, we need to know the width of the rectangle. Unfortunately, the width is not provided in the image, so we cannot calculate the area of the rectangle."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/897.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. The length of side AB is 23 units. There is also a rectangle BCDE connected to the triangle, where the length of side CD is 18 units. An equilateral triangle BFE has been removed from the BE side of the rectangle. The perimeter of the triangle ABC is 57 units, and the perimeter of the BCDEF shape is 96 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle ABC is 57 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AC of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AC of the triangle ABC cannot be determined based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/898.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with a cyan semi-circle drawn inside it. The semi-circle has AB as its diameter. There is also a right triangle ADF with AFD as the right angle. The length of side AF is 12 units and the length of side DF is 10 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a rectangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no rectangle in the image. Only a parallelogram is shown."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The formula to calculate the area of a parallelogram is base multiplied by height. However, the height of the parallelogram is not provided in the caption, so the area cannot be determined."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/899.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle attached to one of its sides. The semi-circle is attached to the side AF of the rectangle ABCD, with the diameter of the semi-circle being equal to the length of the side AF. The rest of the shape ABEF is a rectangle, with the side BE measuring 8 units. The area of the entire shape ABEF is given as 102 units. We are asked to find the length of the side AD of the rectangle ABCD."
+            },
+            {
+                "from": "human",
+                "value": "Is there a square in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no square in the image. The image only shows a rectangle and a semi-circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AF is equal to the diameter of the semi-circle, but the length of side AF is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/9.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc from point A to point C. The sector has an arc length of 20.56. There is also an angle CBD in the sector, which measures 30 degrees. The adjacent angles CBA and CBD are complementary, meaning that their sum is equal to 90 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Is there a rectangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no rectangle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The measure of angle CBA is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/179.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD with a right triangle ADE inside it. The right angle of the triangle is at point E, and the length of the side AE is given as 16 units. The area of the triangle ADE is given as 93 square units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the square ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the square ABCD can be calculated by squaring the length of one of its sides. Since the length of AE is given as 16 units, the area of the square ABCD is 256 square units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/90.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with the right angle at A. The length of side AB is 8 units. There is also a rectangle BDEC with the length of side BD being 14 units. The perimeter of the rectangle BDEC is 56 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a square in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no square in the image. Only a triangle and a rectangle are shown."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle BDEC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle BDEC cannot be determined with the given information. The length of side BD is provided, but the width of the rectangle is not given."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/900.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle removed from one side. There is another shape BCFG, which is a combination of a rectangle and a semi-circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ABCD is 120."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the shape BCFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the shape BCFG is 90."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the CF side of the shape BCFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the CF side of the shape BCFG is 6."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the rectangle ABCD cannot be determined from the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/901.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two shapes, ABCDE and BCFGH. The ABCDE shape is formed by adding an equilateral triangle AED to the AD side of a rectangle ABCD. The BCFGH shape is formed by removing an equilateral triangle BHG from the BG side of a rectangle BCFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side is 24."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the CF side?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the CF side is 6."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the BCFGH shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the BCFGH shape is given as 114."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "To compute the area of the ABCDE shape, we need the length of the AD side of the rectangle, which is not provided in the image. So, the area of the ABCDE shape cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/902.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc length from A to C, and a green semi-circle with BC as its diameter. The arc length of the sector ABC is given as 23.13 and the area of the green semi-circle is given as 157."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of the CBA angle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of the CBA angle cannot be determined based on the given information in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/903.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What shapes are in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two shapes. One is a combination of a rectangle ABCD and an equilateral triangle AED. The other shape is a combination of a rectangle BAFG and an equilateral triangle BHG."
+            },
+            {
+                "from": "human",
+                "value": "What is the height of the equilateral triangle AED?"
+            },
+            {
+                "from": "assistant",
+                "value": "The height of the equilateral triangle AED is 11 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the side AF of the shape BAFGH?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the side AF of the shape BAFGH is 16 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape BAFGH?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the shape BAFGH is 84 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/904.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a diagonal line connecting points A and B. Inside the rectangle ABCD, there is another rectangle AEFB, which shares one of its edges AB with the rectangle ABCD. The diagonal of the rectangle AEFB is labeled as 17. The length of side AD of the rectangle ABCD is labeled as 13, and the length of side AE of the rectangle AEFB is labeled as 6."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/905.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc length AC measuring 10.28 units. There is a rectangle BDEC inside the sector, where the length of side BD is 9 units and the diagonal DE measures 15 units. We need to find the degree measure of angle CBA."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree measure of angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "To find the degree measure of angle CBA, we need more information. The caption does not provide any direct information about angle CBA."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/906.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc length of 20.56. The sector is bounded by two radii, one from A to B and the other from A to C. Inside the sector, there is a rectangle BDEC. The rectangle has sides BD and EC which are parallel to each other and equal in length. The diagonal of the rectangle, which is the line segment connecting B and E, has a length of 18. The CBA angle refers to the angle formed by the radii BA and BC."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, the sector ABC is part of a larger circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the arc BC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the arc BC is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/907.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC, with the right angle at vertex C. The length of side AC is 11 units. Adjacent angles CBA and DBC are shown, with angle DBC measuring 40 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB is not provided in the image, so we cannot determine it."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/908.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD, a rectangle ABEF inside the parallelogram, and an equilateral triangle AGF on the AF side of the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/106.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC, with a square BDEC inside it. The length of side AB is 9 units and the area of the square BDEC is 121 square units."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree measure of angle BCA?"
+            },
+            {
+                "from": "assistant",
+                "value": "To compute the degree measure of angle BCA, we can use the fact that angle BAC is a right angle. Since angle BAC is a right angle, angle BCA is the complement of angle BAC. Therefore, angle BCA is also a right angle."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/18.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with a right angle at C. It is connected to a shape ACDE, which is a combination of a rectangle and a semi-circle. There is also another right triangle BCG attached to the ACDE shape."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle attached to the side AE of the ACDE shape."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the ACDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the ACDE shape is labeled as 38."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/909.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD. The side AD of the parallelogram has a length of 14 units. Inside the parallelogram, there is a green semi-circle with AB as its diameter. The area of this green semi-circle is given as 76.93 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image. Only a green semi-circle with AB as its diameter."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the other sides of the parallelogram is not provided in the image. So, the perimeter of the parallelogram cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/91.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD and a right triangle ABE."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of AB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image does not provide any information about the length of AB."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/910.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What shapes are in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD, an equilateral triangle AED, a semi-circle with AB as the diameter, and a parallelogram BGHC."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The measurements of the rectangle ABCD are not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/911.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing inwards on side AD. There is also a square BFGA inside the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc facing inwards on side AD of the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the square BFGA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the square BFGA is 100 square units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/912.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an additional shape ABEFG. The ABEFG shape is formed by removing an equilateral triangle AGF from the AF side of the ABEF rectangle. The length of the BE side is given as 16. The perimeter of the ABEFG shape is given as 90. The area of the ABCD rectangle is given as 120."
+            },
+            {
+                "from": "human",
+                "value": "Can you tell me the length of the AD side of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "I'm sorry, but the length of the AD side of the ABCD rectangle is not provided in the image or the caption. Therefore, I cannot determine the length of the AD side."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/913.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a sector EAB inside it."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BC side of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the length of the BC side is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/914.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC where ACB is the right angle. There is a rectangle ACDE with side CD measuring 6 units. On the AE side of the rectangle, there is an equilateral triangle AFE. The ACDEF shape is formed by combining the rectangle ACDE and the equilateral triangle AFE. The area of the ACDEF shape is given as 108 units squared. Additionally, there is a square BGHC with a diagonal measuring 15 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle ACDE?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ACDE is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/915.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC with side AB measuring 12 units and side BC measuring 22 units. There is also a brown semi-circle with a diameter equal to the side AC of the triangle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a brown semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle cannot be calculated as the lengths of the sides AB, BC, and AC are not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/916.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semicircle arc facing outwards. The rectangle ABEF is formed by replacing one side of ABCD with the semicircle arc."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ABCD is not directly provided in the image. We can calculate it by subtracting the area of the semicircle ABEF from the area of the rectangle ABEF."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the semicircle ABEF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the semicircle ABEF is given as 114 units squared."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AF side of ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AF side of ABCD is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/917.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with side AD measuring 9 units. There is a sector EAB inside the rectangle, with the arc extending from point E to point B. The angle BAE measures 55 degrees. The area of the sector EAB is given as 127.17 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the rectangle can be calculated by adding the lengths of all four sides. Since we know that side AD measures 9 units, we can determine the perimeter by multiplying AD by 4. Therefore, the perimeter of the rectangle ABCD is 36 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/180.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD and a parallelogram AEFD."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AE?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AE is 16 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle EAD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of angle EAD is 65 degrees."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram AEFD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the parallelogram AEFD is given as 78 square units."
+            },
+            {
+                "from": "human",
+                "value": "Can you compute the area of the square ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, the area of the square ABCD can be computed by multiplying the length of one side by itself. However, the length of the side of the square is not provided in the image, so the area of the square cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/918.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle removed from one side. The rectangle has sides AB, BC, CD, and AD. The semi-circle is drawn on side AD, with the diameter being AD. The area of the rectangle ABCD is 120. We need to calculate the length of side AB."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side BC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side BC is not provided in the caption. We cannot determine its length based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/919.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc being from point A to point C. The angle CBA measures 40 degrees. There is also a rectangle BCDE with an equilateral triangle BFE removed from the BE side of the rectangle. The length of side CD of the rectangle is 8 units. The perimeter of the BCDEF shape is given as 42 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image. Only a sector ABC is shown."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle cannot be determined as the length of side BC is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/92.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square shape ABCD with a circle removed from its center. Inside the square, there is a triangle ADE."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a circle in the image. It is removed from the center of the square."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle ADE is given as 42 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/920.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with a square AEFB inside it. On one side of the parallelogram, there is a shape ADGH formed by a rectangle with a semi-circle arc removed from one side."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of the angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of the angle DAB is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/921.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What shapes are shown in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two shapes, ABCD and BCFG. ABCD is a rectangle with one side replaced by a semi-circle arc facing outwards. BCFG is also a rectangle with one side replaced by a semi-circle arc facing outwards."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side CF in shape BCFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side CF in shape BCFG is given as 6 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a pink semi-circle with AB as the diameter."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the pink semi-circle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the pink semi-circle is given as 39.25 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of shape ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The problem asks us to compute the area of shape ABCD, but the necessary information to calculate its area is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/922.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. The angle BCA is labeled as 60 degrees and the angle BAD is labeled as 55 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "To find the degree of angle CBA, we subtract the degree of angle BAC from 90. So, the degree of angle CBA is 90 - 55 = 35 degrees."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/923.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC with angle BCA measuring 30 degrees. There is also a parallelogram ADEF, where the length of side AF is 6 units and the length of side AD is 17 units. The area of the parallelogram ADEF is given as 42 units squared. Additionally, the angle FAD is stated to be vertical to angle CAB."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the degree measure of angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, since angle BCA measures 30 degrees and angle CAB is vertical to angle FAD, we can conclude that angle CAB is also 30 degrees. Therefore, the degree measure of angle CBA is 180 - 30 - 30 = 120 degrees."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/924.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD, a sector EAD, and a right triangle ABF."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of angle DAB is not provided in the caption. We cannot determine its value."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/925.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle BCDEF with an equilateral triangle BFE removed from the BE side. There is also a right triangle ACB with AC as the hypotenuse and ACB as the right angle. The length of the AC side is given as 20 and the length of the CD side is given as 9."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle BCDEF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the BCDEF shape is given as 48."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the length of the AB side of the ACB triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, we can calculate the length of the AB side of the ACB triangle using the Pythagorean theorem. Since AC is the hypotenuse and CD is given as 9, we can calculate the length of AB as square root of (AC^2 - CD^2). Therefore, AB = square root of (20^2 - 9^2) = square root of (400 - 81) = square root of 319."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/926.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from the AD side. There is also a shape BCFG, which is a combination of a rectangle and a semi-circle. The rectangle BCFG has a side CF of length 7 and the area of the BCFG shape is 120. The perimeter of the ABCDE shape is 84."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle in the shape BCFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle AED?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle AED is not provided in the image. So, the perimeter of the triangle AED cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/181.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc length from point A to point C. There is also a rectangle BDEC, where the length of the side BD is 13 units. The area of the rectangle BDEC is 120 units squared."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image. Only a sector ABC is shown."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of the arc length AC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The exact measure of the arc length AC is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/927.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD with a circle removed from its center. On the left side of the square, there is a rectangle ADEF with side DE measuring 8 units. On the right side of the square, an equilateral triangle AGF is attached to the AF side of the rectangle ADEF. The perimeter of the ADEFG shape is given as 48 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a circle in the image. It is removed from the center of the square ABCD."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the side of the square?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the side of the square is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/928.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from one side. There is also a right triangle BCF, where FBC is a right angle."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABCDE shape is given as 120."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the ABCDE shape is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/929.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What shapes are present in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD and another shape ABFG, which is a combination of a rectangle and a semicircle arc."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BF side of ABFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BF side of ABFG is 13 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of ABFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of ABFG is 74 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the BIJC rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the BIJC rectangle is 84 square units."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the area of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, the area of the ABCD shape cannot be calculated based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/93.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with a square ADEB inside it. There is also a shape ACFG outside the square, which is a combination of a rectangle and a semi-circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the diagonal of the square ADEB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The diagonal of the square ADEB is 34."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the CF side of the ACFG shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The CF side of the ACFG shape has a length of 7."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/930.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from the AD side. The rectangle BCFGH is also shown, with an equilateral triangle BHG removed from the BG side. The CF side of the BCFGH rectangle is labeled as 8. The perimeter of the ABCDE shape is given as 108, and the perimeter of the BCFGH shape is given as 66."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the ABCDE shape can be calculated by subtracting the lengths of the two equilateral triangles from the perimeter of the ABCDE shape. Since the perimeter of the ABCDE shape is given as 108 and the perimeter of the equilateral triangle AED is not provided, it is not possible to calculate the length of the AB side."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/931.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD. Inside the parallelogram, there is a shape ADEF which is a combination of a rectangle and a semi-circle. The rectangle has sides AD and EF, and the semi-circle is attached to one side of the rectangle, specifically the side AF. Another shape ABHI is also present, which is a rectangle with a semi-circle removed from one side. The rectangle has sides AB and HI, and the semi-circle is removed from the side AI. The angle BAD is the angle between the sides BA and AD of the parallelogram ABCD."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle present in the image. It is attached to one side of the rectangle ADEF, specifically the side AF."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/932.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with a square ADEB inside it. There is also a rectangle BCFG outside the square ADEB, with a semi-circle arc on one of its sides."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc on one side of the rectangle BCFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/933.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from one side of it. There is also a purple semi-circle with BC as its diameter drawn outside the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a purple semi-circle with BC as its diameter."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the rectangle is not provided in the image. So, the perimeter of the rectangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/934.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC and a rectangle BDEC. The triangle ABC has a side AB with length 7 and a perimeter of 29. The rectangle BDEC has a diagonal BD with length 14."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the side AC of the triangle ABC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the side AC of the triangle ABC is not provided in the image. So, it cannot be determined."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/935.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with its sides labeled. There is another shape ABEFG inside the rectangle, which is a rectangle with an equilateral triangle AGF removed from one of its sides."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the rectangle is 72 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BE side of the ABEFG shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BE side of the ABEFG shape is 8 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABEFG shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABEFG shape is 102 square units."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the length of the AD side of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, we can calculate the length of the AD side of the ABCD rectangle. Since the perimeter of the rectangle is 72 units, and each side of the rectangle is equal in length, the length of each side is 72 / 4 = 18 units. Therefore, the length of the AD side of the ABCD rectangle is 18 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/182.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC and a right triangle BDE."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side BC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side BC is 22 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side DE?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side DE is 12 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/936.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two sectors, ABC and DBE, with the arc of ABC extending from point A to point C, and the arc of DBE extending from point D to point E. There is also a shape BCFG, which is a rectangle with the BG side replaced by a semi-circle arc facing inward."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc in the shape BCFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/937.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc length of 20.56. There is a rectangle BCDE where the BE side is replaced with a semi-circle arc facing in. The length of the CD side is 7 and the perimeter of the BCDE shape is 40. We need to compute the degree of the CBA angle."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of the CBA angle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of the CBA angle cannot be determined based on the information provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/938.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC and a parallelogram ADEF. The triangle ABC has vertices A, B, and C, while the parallelogram ADEF has vertices A, D, E, and F. The length of the side AF is 14 units, and the length of the side AD is 13 units. The area of the parallelogram ADEF is given as 120 units. The angle CAB is vertical to the angle FAD, meaning they are opposite each other and have the same measure. The angle GCB is given as 60 degrees, and it is adjacent to the angle BCA. The adjacent angles BCA and GCB are complementary, meaning their measures add up to 90 degrees. We need to compute the measure of the angle CBA."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/939.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCDE, where ABCD is a rectangle and AED is an equilateral triangle. The shape is labeled with points A, B, C, D, and E. The length of the AB side of the shape is being computed."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB is being computed, so it is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/94.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. Angle BAC is labeled as 55 degrees, angle DBC is labeled as 20 degrees. Adjacent angles CBA and DBC are complementary."
+            },
+            {
+                "from": "human",
+                "value": "Is angle BCA labeled in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, angle BCA is not labeled in the image."
+            },
+            {
+                "from": "human",
+                "value": "Are angles BAC and BCA complementary?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about angles BAC and BCA being complementary is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/940.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from the AD side. On the opposite side of the rectangle, there is another rectangle CBFG, where the CG side is replaced with a semi-circle arc facing inwards. The length of the BF side is 6 units. The area of the CBFG shape is 30 square units. Inside the CBFG shape, there is a sector IBA, where the arc length is 17.99 units and the degree of the IBA angle is 60 degrees. We are asked to compute the perimeter of the ABCDE shape."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc in the image. It is part of the CBFG shape."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/941.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with side AD measuring 23 units. There is a gray semi-circle drawn with AB as its diameter, and the circumference of this semi-circle is given as 41.12 units. The area of the parallelogram is given as 96 units squared."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a triangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no triangle in the image. The figure shown is a parallelogram."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree measure of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree measure of angle DAB is not provided in the caption. The caption only provides information about the measurements and properties of the parallelogram and the semi-circle."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/942.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing in on the AD side. On the right side of the rectangle ABCD, there is another shape BCFG, which is a combination of a rectangle and a semi-circle arc facing out. The length of the CF side of the BCFG shape is 9. The perimeter of the ABCD shape is 96 and the perimeter of the BCFG shape is 62."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the rectangle ABCD is 96."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape BCFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the shape BCFG is 62."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the rectangle ABCD is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/943.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc from A to C. There is also a rectangle BDEC."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption does not mention the presence of a circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of sector ABC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of sector ABC is given as 157 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/944.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What is the shape of the figure in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The figure in the image is a sector."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the sector?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the sector is 157."
+            },
+            {
+                "from": "human",
+                "value": "Is there a right angle in the sector?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no right angle in the sector."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle CBD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The measure of angle CBD is 20 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Are angles CBA and CBD complementary?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, angles CBA and CBD are complementary."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side BC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side BC is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/183.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc length from A to C. The sector is part of a circle with center O. There is a rectangle BDEC inside the sector, with the side BD measuring 9 units. The area of the rectangle BDEC is 66 square units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a triangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no triangle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the arc from A to C?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the arc from A to C is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/945.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with a rectangle ABDE inside. There is also a triangle BCG."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc inside the rectangle ABDE."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle BCG is 45."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle BCA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of angle BCA is not provided in the caption. Therefore, I cannot determine its value."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/946.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD and a shape ABEFG."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AD side of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AD side of the rectangle is not provided in the image. We need to calculate it."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/947.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image consists of a rectangle ABCD with a semi-circle arc facing out on one side. There is also a square BFGC inside the rectangle ABCD, with the diagonal of the square labeled as 23."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the rectangle is not provided in the image. So, the perimeter of the rectangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/948.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a shape ABEFG inside it. The rectangle ABCD has sides AB, BC, CD, and DA. The shape ABEFG is formed by removing an equilateral triangle AGF from the AF side of the rectangle ABEF. The length of the BE side is given as 13. The perimeter of the rectangle ABCD is given as 50 and the area of the shape ABEFG is given as 114."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape ABEFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the shape ABEFG can be calculated by subtracting the length of the AG side from the perimeter of the rectangle ABCD. Since the perimeter of the rectangle ABCD is given as 50 and the length of the AG side is not provided in the caption, I cannot calculate the perimeter of the shape ABEFG."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/949.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. The angle CAB is labeled as 40 degrees and the angle BCA is labeled as 45 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/95.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC. Side AB measures 10 units and the right angle is at vertex C. There is also a sector DAC with an arc DC measuring 12.85 units and an angle CAD measuring 75 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side BC of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side BC is not provided in the image. Therefore, we cannot determine its length."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/950.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a curved edge, and another shape BCFGH on the right side. The BCFGH shape is a combination of a rectangle BCFG and an equilateral triangle BHG."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the BCFGH shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the BCFGH shape is 48."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/951.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with the arc from A to C. The area of the sector ABC is 157. There is another sector DBE with the arc from D to E. The length of the BD side is 6. The arc length of the sector DBE is 10.28. The angle DBE is vertical to the angle CBA."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a circle in the image. The sector ABC and the sector DBE are parts of the same circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BC side of the sector ABC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BC side of the sector ABC is not provided in the caption, so I cannot determine its length."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/952.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a diagonal of length 18. Inside the rectangle, there is another shape ABEFG, which is a rectangle with an equilateral triangle AGF removed from one side. The BE side of the rectangle ABEFG has a length of 9. The area of the ABEFG shape is given as 60. We need to find the length of the AD side of the ABCD rectangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AD side of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AD side of the ABCD rectangle can be found using the Pythagorean theorem. Since the diagonal of the rectangle is given as 18, and the length of the BE side of the ABEFG shape is given as 9, we can calculate the length of the AD side as the square root of (18^2 - 9^2), which is equal to 15."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/953.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with side AD measuring 23 units. The angle DAB is 45 degrees. Inside the parallelogram, there is a rectangle ABEF, where the AF side is replaced with a semi-circle arc facing inwards. The length of the BE side of the rectangle is 6 units. The area of the ABEF shape is given as 42 square units. The other sides and angles of the parallelogram are not mentioned in the question."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a square in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no square in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/184.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle removed from one side, specifically the AD side. The rectangle is labeled with the points A, B, C, and D. There is another shape labeled BCFG, which is a combination of a rectangle and a semi-circle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle in the image. It is drawn inside the rectangle ABCD and outside the rectangle BCFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the rectangle ABCD is given as 96 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape BCFG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the shape BCFG is given as 66 units."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the length of the AB side of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, the length of the AB side of the ABCD shape is not provided in the image. So, it cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/954.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC, a rectangle ADEC, and a parallelogram BFGC."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of the sides of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption only provides the measurement of side AB, which is 18 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle cannot be calculated as the lengths of the other two sides are not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/955.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC, with C as the right angle. There is a parallelogram ADEC, with the side AD measuring 13 units and the angle CAD measuring 55 degrees. The area of the ADEC parallelogram is given as 72. Another parallelogram AFGB is also present, with the side AF measuring 9 units and the angle BAF measuring 45 degrees. The area of the AFGB parallelogram is also given as 72. We need to compute the area of the ABC right triangle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/956.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD and a right triangle ABE."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of the sides of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption states that side AD measures 18 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption mentions that angle DAB measures 40 degrees."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of the sides of the right triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption states that side AE measures 17 units and side BE measures 20 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the parallelogram ABCD cannot be calculated solely based on the given information. We need the height of the parallelogram to calculate its area."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/957.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. Angle DCB is 35 degrees and angles BCA and DCB are complementary, meaning they add up to 90 degrees. Angle CAE is 55 degrees and angles CAB and CAE are complementary, meaning they also add up to 90 degrees."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of angle CBA can be found by subtracting the degree of angle BCA from 90 degrees. Since angles BCA and DCB are complementary, and angle DCB is 35 degrees, angle BCA is 90 - 35 = 55 degrees. Therefore, the degree of angle CBA is 55 degrees."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/958.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCD, which is a combination of a rectangle and a semi-circle. The rectangle has sides AB and BC, with AB measuring 16 units. The semi-circle replaces the side AD of the rectangle, with the semi-circle arc facing outwards. The BCF triangle is formed by the base BC and the sides BF and CF. The length of the BF side is 14 units. The height perpendicular to the BF base in the BCF triangle measures 5 units, and the height perpendicular to the BC base in the BCF triangle measures 9 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "To calculate the perimeter of the shape, we need the lengths of all sides. However, the length of the BC side is given as 16 units, but the lengths of the other sides are not provided in the image. So, the perimeter of the shape cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/959.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an unknown length of the AD side. Inside the rectangle, there is another rectangle ABEF with the length of the BE side given as 9. There is also a shape ABEFG created by removing an equilateral triangle AGF from the ABEF rectangle. The perimeter of the ABEFG shape is given as 66 and the area of the ABCD rectangle is given as 102."
+            },
+            {
+                "from": "human",
+                "value": "Can you calculate the length of the AD side of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, the length of the AD side of the ABCD rectangle cannot be calculated based on the given information. We only know the lengths of the BE side of the ABEF rectangle and the perimeter of the ABEFG shape."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/96.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD and a right triangle ABE."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of the parallelogram ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AD side is 12 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of the DAB angle is 75 degrees."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/960.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with side AD measuring 24 units. Inside the rectangle, there is a parallelogram AEFB with side AE measuring 16 units. The angle BAE measures 25 degrees. The area of the parallelogram AEFB is given as 102 units squared."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ABCD can be calculated by multiplying the length of side AD with the length of side AE, since AE is parallel to AD. So, the area of the rectangle ABCD is 384 units squared."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/961.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two squares, ABCD and AEFD. AEFD is smaller than ABCD."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the smaller square?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the smaller square, AEFD, is given as 92."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the larger square?"
+            },
+            {
+                "from": "assistant",
+                "value": "Since the perimeter of the smaller square, AEFD, is given as 92, we can't directly calculate the perimeter of the larger square, ABCD, without additional information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/962.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AED removed from the AD side. There is another rectangle BCFG with an equilateral triangle BHG removed from the BG side. The length of the CF side is given as 9. The perimeter of the ABCDE shape is 102 and the perimeter of the BCFGH shape is 66."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the ABCDE shape can be found by subtracting the lengths of the DE and EA sides from the length of the AD side of the rectangle ABCD. However, the length of the AD side is not provided in the image, so I cannot determine the length of the AB side."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/185.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc from A to C. The arc length of the sector is 17.99. There is also a cyan semi-circle with BC as its diameter. The area of the cyan semi-circle is 25.12."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a cyan semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of the angle CBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of the angle CBA cannot be determined from the information provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/963.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with side AD measuring 23 units. There is also a lime semi-circle with AB as its diameter. The circumference of the lime semi-circle is given as 61.68 units. The angle DAF is labeled as 65 degrees and the adjacent angles DAB and DAF are complementary."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the height of the parallelogram is not given in the image. So, the area of the parallelogram cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/964.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. Side AB measures 14 units. On the right side of AB, there is a shape BCDE which is a combination of a rectangle and a semicircle. The rectangle has sides BC and CD measuring 21 units and the semicircle is attached to the side BE. The perimeter of the BCDE shape is given as 98 units. The triangle ACG is also shown, with side AG measuring 11 units and side CG measuring 16 units. The angle GAC is a right angle."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/965.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a triangle AED attached to the AD side. There is also a parallelogram BFGA inside the ABCDE shape."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BC side?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BC side is 8 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BF side?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BF side is 11 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle FBA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The angle FBA is 20 degrees."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram BFGA?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the BFGA parallelogram is 36 square units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/966.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCD, which is a combination of a rectangle and a semi-circle. The rectangle has sides AB and BC, while the semi-circle replaces the side AD. The length of side AB is given as 22 units. The shape also includes a parallelogram BFGC, where the side BF has a length of 13 units and the angle FBC measures 65 degrees. The area of the parallelogram BFGC is given as 66 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image. There is a semi-circle, but not a full circle."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the rectangle or the semi-circle is not provided in the image. So, the perimeter of the shape cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/967.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What shapes are present in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD, a rectangle AEFB, and a shape ADGHI formed by combining a rectangle ADGH and an equilateral triangle AIH."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB of the parallelogram is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/968.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC with AB and AC sides measuring 20 units each. There is a rectangle BCDE attached to the triangle, where the length of the CD side is 10 units. The rectangle BCDE has a semi-circle arc removed from one side, with the diameter of the semi-circle being the length of the BE side. The area of the BCDE shape is given as 96 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/969.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc removed from one side of it. The rectangle has three sides AB, BC, and CD, and one curved side AD. The semi-circle arc is drawn inside the rectangle, with the straight side of the semi-circle coinciding with the side AD of the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image. Only a semi-circle arc is present."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ABCD is given as 90."
+            },
+            {
+                "from": "human",
+                "value": "Can you compute the length of side AB?"
+            },
+            {
+                "from": "assistant",
+                "value": "Unfortunately, the length of side AB is not provided in the caption. Therefore, it cannot be computed."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/97.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with side AD measuring 17 units. On one side of the rectangle, a shape ABEFG is formed by removing an equilateral triangle AGF from the AF side of a rectangle ABEF. The length of side BE is 6 units. The area of this ABEFG shape is given as 108 units squared."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABCD rectangle can be calculated by subtracting the area of the ABEFG shape from the total area of the rectangle. Since the area of the ABEFG shape is given as 108 units squared, we can subtract that from the total area of the rectangle to find the area of the ABCD rectangle."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/970.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing outwards on one side. There is also a square BFGC."
+            },
+            {
+                "from": "human",
+                "value": "Is there a triangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no triangle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABCD shape is given as 78."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc facing outwards on one side of the rectangle ABCD."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the square BFGC?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the square BFGC is given as 36."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AB side of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AB side of the ABCD shape cannot be determined based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/971.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD, with a diagonal of length 17. The rectangle is divided into two parts - a rectangle ABEF and a triangle AGF. The length of the BE side of the rectangle ABEF is given as 9. The perimeter of the combined shape ABEFG is 48. We need to find the length of the AD side of the rectangle ABCD."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the diagonal of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the diagonal of the rectangle is given as 17."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AD of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AD of the rectangle is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/186.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC with a sector DAE inside it. The arc DE of the sector is labeled with a length of 15.42. The angle DAE is marked as being vertical to angle BAC. There is also a parallelogram CFGH adjacent to the triangle, with sides CF and CH labeled as 9 and 13 respectively. The area of the parallelogram CFGH is given as 36. The angle BCA is marked as being vertical to angle FCH."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/972.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a triangle ABC. Side AB measures 22 units. There is a square ADEC adjacent to side AB with a perimeter of 24 units. Inside the triangle ABC, there is a magenta semi-circle with side BC as its diameter. The area of the magenta semi-circle is given as 189.97 units squared."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/973.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCDE, which is formed by adding an equilateral triangle AED to the AD side of a rectangle ABCD. There is also a square BFGA."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AD is not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/974.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD and an equilateral triangle AED. There is also a shape ABCDE formed by adding the equilateral triangle AED to the AD side of the rectangle ABCD. There is another shape BCFG, which is a rectangle with a semi-circle arc facing inwards, replacing the BG side."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle AED?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle AED is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/975.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with side AB measuring 13 units. There is a brown semi-circle drawn with AC as its diameter. The area of the brown semi-circle is given as 76.93 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a brown semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/976.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with angle CAB being the right angle. There is a magenta semi-circle inscribed in the triangle with AC as the diameter. The area of the magenta semi-circle is given as 127.17."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a magenta semi-circle inscribed in the triangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/977.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc length of 10.28. There is also a larger shape BCDEF, which is a rectangle with a triangular section BFE removed from the BE side. The length of the CD side of the rectangle BCDE is 11. The area of the BCDEF shape is 102."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of the CBA angle?"
+            },
+            {
+                "from": "assistant",
+                "value": "To compute the degree of the CBA angle, we would need more information. The caption does not provide any direct information about the CBA angle."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/978.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing in, replacing the AD side of the rectangle. On the right side of the rectangle BCF, there is a right triangle BCF with the right angle at point F. The length of the BF side is 12 and the length of the CF side is 16. The perimeter of the ABCD shape is given as 96 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a square in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no square in the image. Only a rectangle is present."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the dimensions of the rectangle is not provided in the image. So, the area of the rectangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/979.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD, a shape ABEFG, and an equilateral triangle AGF."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the ABCD rectangle is not provided in the image. We only have information about the length of side AD, which is 9 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/98.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with CAB being the right angle. Adjacent to the triangle ABC, there is a rectangle BDEC. The length of the BD side is 6 units and the diagonal of the BDEC rectangle is 23 units. There is also a blue semi-circle with AC as its diameter, and the area of the blue semi-circle is 127.17 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a blue semi-circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/980.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD and a shape ABEFG."
+            },
+            {
+                "from": "human",
+                "value": "What are the dimensions of the rectangle ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The dimensions of the rectangle ABCD are not provided in the caption."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/187.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows two parallelograms, ABCD and AEFB. The side AD of parallelogram ABCD measures 15 units and the angle BAD measures 40 degrees. The side AE of parallelogram AEFB measures 11 units and the perimeter of AEFB is 68 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of parallelogram ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the other sides of parallelogram ABCD is not provided in the image. So, the perimeter of parallelogram ABCD cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/981.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image consists of a square ABCD with a circle removed from its center. There is also a triangle ADE within the square."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a circle in the image. It is removed from the center of the square."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/982.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing in on the AD side. The rectangle has four sides AB, BC, CD, and DA. The semi-circle arc is connected to the rectangle at point A and intersects the side DC at point E. There is also a right triangle BCF formed by the sides BC, BF, and CF."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle ABCD is 54."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the right triangle BCF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the right triangle BCF is 31."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB of the rectangle is not provided in the caption. Therefore, we cannot determine the length of side AB based on the given information."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/983.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an inside rectangle ABEF. The ABEF rectangle has one side replaced with a semi-circle arc facing inwards."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no full circle in the image. There is only a semi-circle arc."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the ABEF rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the ABEF rectangle is given as 72 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the diagonal of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the diagonal of the ABCD rectangle is not provided in the caption. So, it cannot be determined."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/984.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCD which is a combination of a rectangle and a semi-circle. The rectangle has sides AB, BC, CD, and DA, while the semi-circle arc is attached to the AD side of the rectangle. The shape BCFGH is constructed by adding an equilateral triangle BHG to the BG side of a rectangle BCFG. The CF side of the rectangle BCFG is given as 8 units. The perimeter of the ABCD shape is given as 76 units and the area of the BCFGH shape is given as 126 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle attached to the AD side of the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the ABCD shape is given as 76 units."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/985.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with a sector EAB inside it. The sector EAB is formed by an arc that starts at point E and ends at point B. The angle BAE is 75 degrees. The area of the parallelogram ABCD is 72 square units. There is also a triangle ADF inside the parallelogram ABCD. The side AF of the triangle ADF has a length of 17 units. The height perpendicular to the base AF of the triangle ADF is 9 units, and the height perpendicular to the base AD of the triangle ADF is 10 units."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the parallelogram ABCD is 72 square units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the arc?"
+            },
+            {
+                "from": "assistant",
+                "value": "The arc length of the sector EAB is 15.42 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the side AF of triangle ADF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The side AF of triangle ADF has a length of 17 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the height of triangle ADF perpendicular to the base AF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The height of triangle ADF perpendicular to the base AF is 9 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the height of triangle ADF perpendicular to the base AD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The height of triangle ADF perpendicular to the base AD is 10 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the degree of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The degree of angle DAB is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/986.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCDE, which is a combination of a rectangle ABCD and an equilateral triangle AED. Another shape ABFGH is also shown, which is a rectangle ABFG with an equilateral triangle AHG removed from the AG side."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the height of the equilateral triangle part of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the height of the equilateral triangle part of the ABCDE shape is 7."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BF side of the ABFGH shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BF side of the ABFGH shape is 6."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABFGH shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABFGH shape is given as 48."
+            },
+            {
+                "from": "human",
+                "value": "Can you compute the area of the ABCDE shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, we can compute the area of the ABCDE shape. The area of the ABCDE shape can be calculated by adding the areas of the rectangle ABCD and the equilateral triangle AED. However, the length of the sides of the rectangle ABCD is not provided in the image, so we cannot compute the area of the ABCDE shape."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/987.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC with a right angle at ACB. There is a rectangle ABDE and another rectangle AGHC."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc facing inwards, replacing the AE side of the rectangle ABDE."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption does not provide information about the lengths of the sides of the triangle, so the perimeter cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/988.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD. Inside this rectangle, there is another shape ADEF, which is a combination of a rectangle and a semi-circle. The AF side of ADEF is replaced with a semi-circle arc facing out. The length of the DE side of ADEF is given as 13. The perimeter of ADEF is given as 82. There is also another rectangle AHIB inside the ADEF shape. The length of the AH side of AHIB is given as 13. The diagonal of AHIB is given as 21. The task is to compute the diagonal of the ABCD rectangle."
+            },
+            {
+                "from": "human",
+                "value": "Is there a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the ADEF shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of ADEF is given as 82."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the DE side of ADEF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the DE side of ADEF is given as 13."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AH side of AHIB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AH side of AHIB is given as 13."
+            },
+            {
+                "from": "human",
+                "value": "What is the diagonal of AHIB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The diagonal of AHIB is given as 21."
+            },
+            {
+                "from": "human",
+                "value": "What is the diagonal of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The diagonal of the ABCD rectangle is the same as the diagonal of AHIB, which is given as 21."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/989.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD with a triangle ABE inside it. The length of side AE is given as 16 units and the angles BAE and BEA are given as 30 degrees and 45 degrees respectively."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AD of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AD is not provided in the image. Therefore, we cannot determine the length of side AD."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/99.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a sector EAB inside it. The arc of the sector EAB is from point E to point B. The angle BAE is 65 degrees. There is also a right triangle ADF inside the rectangle ABCD, with FAD being the right angle. The side AF of the triangle ADF has a length of 15 units. The area of the sector EAB is 39.25 square units and the area of the triangle ADF is 39 square units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the rectangle is not provided in the image. So, the perimeter of the rectangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/188.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD with a circle removed from its center. There is also a rectangle AEFD inside the square."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a circle removed from the center of the square."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the rectangle AEFD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the rectangle AEFD is given as 108 units squared."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the square ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "Since the length of the AE side of the rectangle is given as 18 units, and the area of the rectangle is given as 108 units squared, we can calculate the width of the rectangle as 6 units. Since the rectangle is inside the square, the width of the square is also 6 units. Therefore, the area of the square ABCD is 6 multiplied by 6, which equals 36 units squared."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/990.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a shape ABCD, which is a combination of a rectangle and a semi-circle. The rectangle is labeled ABCD, with AB as the base and CD as the height. The semi-circle is attached to the base AB, with the curved part facing outwards. The sector FAB is a portion of the semi-circle, with the arc length labeled as 23.13. The angle BAF is labeled as 55 degrees. On the other side, the shape BCGH is also a rectangle, with BH as the base and CG as the height. However, a semi-circle is removed from the shape, with the curved part facing inwards. The length of the side CG is given as 9 units. The perimeter of the BCGH shape is labeled as 58 units. The task is to calculate the area of the shape ABCD."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle in the image. It is attached to the base AB of the rectangle ABCD, with the curved part facing outwards."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption does not provide the information about the lengths of the sides of the rectangle ABCD. Therefore, the perimeter of the shape ABCD cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/991.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a trapezoid ABCD with side lengths CD = 23, AB = 6, and AD = 17. Inside the trapezoid, there is a square BEFC with an area of 121. The square BEFC is positioned such that one of its sides is parallel to the base AB and another side is parallel to the base CD."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no circle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the trapezoid ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the slanted sides of the trapezoid is not provided in the image. So, the perimeter of the trapezoid cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/992.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc facing inwards on the side AD. There is also another shape BCFGH, which is a rectangle with a removed equilateral triangle BHG on the BG side."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc on the side AD of the rectangle ABCD."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle BHG?"
+            },
+            {
+                "from": "assistant",
+                "value": "The information about the lengths of the sides of the triangle BHG is not provided in the image. So, the perimeter of the triangle cannot be calculated."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/993.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a parallelogram ABCD and a right triangle ABE."
+            },
+            {
+                "from": "human",
+                "value": "What are the measurements of side AD and side AE?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption states that side AD measures 6 units and side AE also measures 6 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the parallelogram?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the parallelogram ABCD is given as 66 units^2."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/994.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a sector ABC with an arc from point A to point C. There is also a square BDEC."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the arc?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the arc is given as 15.42."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the square?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the square is given as 56."
+            },
+            {
+                "from": "human",
+                "value": "Can you compute the degree of the CBA angle?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, the degree of the CBA angle cannot be computed based on the information provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/995.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square shape ABCD with a circle removed from its center. The circle has the same diameter as the side of the square. Inside the square, there is a sector EAD with the arc from point E to D. The angle DAE measures 50 degrees. The area of the sector EAD is given as 127.17."
+            },
+            {
+                "from": "human",
+                "value": "Is there a triangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no triangle in the image. There is a square and a sector."
+            },
+            {
+                "from": "human",
+                "value": "What is the measure of angle DAB?"
+            },
+            {
+                "from": "assistant",
+                "value": "The measure of angle DAB is 90 degrees since it is a right angle in a square."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/996.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a square ABCD with a circle removed from its center. Inside the square ABCD, there is another square AEFD. The diagonal of the square AEFD measures 17 units."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a triangle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "No, there is no triangle in the image."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of one side of the square ABCD?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of one side of the square ABCD is not provided in the image."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/997.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with an equilateral triangle AGF removed from one side of it, forming a shape ABEFG."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the BE side?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the BE side is given as 6."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the ABEFG shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the ABEFG shape is given as 42."
+            },
+            {
+                "from": "human",
+                "value": "What is the area of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The area of the ABCD rectangle is given as 66."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of the AD side of the ABCD rectangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of the AD side of the ABCD rectangle can be computed by subtracting the length of the BE side (6) from the perimeter of the ABEFG shape (42), and then dividing the result by 2. So, the length of the AD side is (42 - 6) / 2 = 18."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/998.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a right triangle ABC, a rectangle BCDE, and an equilateral triangle BFE."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a blue semi-circle with AC as the diameter."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle?"
+            },
+            {
+                "from": "assistant",
+                "value": "The caption does not provide the lengths of the triangle's sides, so we cannot calculate the perimeter."
+            }
+        ]
+    },
+    {
+        "image_path": "GeomVerse/TEST/D2_B50/images/999.jpeg",
+        "conversation": [
+            {
+                "from": "human",
+                "value": "What do you see in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "The image shows a rectangle ABCD with a semi-circle arc on side AD. There is also a triangle BCF within the shape."
+            },
+            {
+                "from": "human",
+                "value": "Do you see a circle in the image?"
+            },
+            {
+                "from": "assistant",
+                "value": "Yes, there is a semi-circle arc on side AD of the rectangle."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the triangle BCF?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the triangle BCF is given as 45 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the perimeter of the shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The perimeter of the shape is given as 96 units."
+            },
+            {
+                "from": "human",
+                "value": "What is the length of side AB of the ABCD shape?"
+            },
+            {
+                "from": "assistant",
+                "value": "The length of side AB is not provided in the caption, so I cannot determine it."
+            }
+        ]
+    }
+]

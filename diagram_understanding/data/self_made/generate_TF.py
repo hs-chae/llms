@@ -17,7 +17,7 @@ num_images = 10
 balance_limit = 0.2 * num_images
 
 
-type_path = "test"
+type_path = "TF"
 #create the directory if it doesn't exist
 os.makedirs(f'./GOVU_data/{type_path}', exist_ok=True)
 
@@ -38,6 +38,9 @@ with open('questions.json') as file:
     negative_mining = question_data['negative_mining']
     conversation_general = question_data['conversation_general']
     not_existing = question_data['not_existing']
+    TF_data = question_data['TF']
+    nTF_data = question_data['not_existing_TF']
+
 
 
 
