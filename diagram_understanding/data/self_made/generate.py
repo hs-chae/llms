@@ -48,15 +48,15 @@ ax.set_ylim(0, 1000)
 
 #Plotting diagrams
 diagram = Diagram()
-# add_free_point(diagram)
+add_free_point(diagram)
 # add_free_circle(diagram)
 # add_free_circle(diagram)
 
-n = random.randint(2, 5)
+n = random.randint(2, 3)
 indx = 0
 while True:
     diagram = test_generation(diagram)
-    if len(diagram.entities) >= n or indx > 10:
+    if len(diagram.entities) >= n or indx > 5:
         break
     indx+=1
     # print(diagram.steps)

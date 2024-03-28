@@ -1632,7 +1632,7 @@ def cc_tangent(d):
     ind = 0
     while True:
         c1_center = random.choice(d.points)
-        c1_radius = random.uniform(200, 400)
+        c1_radius = random.uniform(100, 400)
         if assert_coord_in_range(c1_center.x + c1_radius, c1_center.y + c1_radius) and assert_coord_in_range(c1_center.x - c1_radius, c1_center.y - c1_radius):
             break
         if ind > 100:
@@ -1641,9 +1641,15 @@ def cc_tangent(d):
 
     ind = 0
     while True:
-        x, y = random_coord(), random_coord()
-        length = np.linalg.norm([x - c1_center.x, y - c1_center.y])
-        if length > 2 * c1_radius:
+        # x, y = random_coord(), random_coord()
+        # length = np.linalg.norm([x - c1_center.x, y - c1_center.y])
+        # if length > 2 * c1_radius:
+        #     break
+        angle = random_angle()
+        distance = random.uniform(2, 5) * c1_radius
+        x = c1_center.x + distance * np.cos(angle)
+        y = c1_center.y + distance * np.sin(angle)
+        if assert_coord_in_range(x,y):
             break
         if ind > 100:
             return d
@@ -1652,7 +1658,7 @@ def cc_tangent(d):
     angle0 = np.arctan((y - c1_center.y) / (x - c1_center.x))
     if x < c1_center.x:
         angle0 += np.pi
-    angle = np.arccos(c1_radius / length)
+    angle = np.arccos(c1_radius / distance)
 
     p1_x, p1_y = c1_center.x + c1_radius * np.cos(angle + angle0), c1_center.y + c1_radius * np.sin(angle + angle0)
     p2_x, p2_y = c1_center.x + c1_radius * np.cos(-angle + angle0), c1_center.y + c1_radius * np.sin(-angle + angle0)
@@ -1666,9 +1672,9 @@ def cc_tangent(d):
     p1 = Point(p1_x, p1_y, p1_label)
     p2 = Point(p2_x, p2_y, p2_label)
     P = Point(x, y, P_label)
-
-    vec_x, vec_y = c1_center.x - x, c1_center.y - y
+    vec_x, vec_y = c1_center.x-x, c1_center.y-y
     ind = 0
+
     while True:
         scale = random. uniform(0.5, 1)
         x1, y1 = x + scale * vec_x, y + scale * vec_y
@@ -1678,6 +1684,7 @@ def cc_tangent(d):
         if ind > 30:
             return d
         ind += 1
+
     c2_center = Point(x1, y1, label_point(d))
     c2 = Circle(c2_center, rad_1, '')
     t1_x, t1_y = scale * (p1_x - x) + x, scale * (p1_y - y) + y
@@ -1685,6 +1692,7 @@ def cc_tangent(d):
     t_label = label_point(d)
     t1 = Point(t1_x, t1_y, t_label + '1')
     t2 = Point(t2_x, t2_y, t_label + '2')
+
     d.points.extend([t1,t2])
     d.points.append(c2.center)
     d.circles.append(c2)
@@ -1693,12 +1701,13 @@ def cc_tangent(d):
 
     d.points.extend([p1, p2, P])
     d.lines.extend([Line(p1, P, label=""), Line(p2, P, label=""), ])
+
     # d.entities.append(
     # print(f'Line({p1.label}{P.label}) and Line({p2.label}{P.label}) are tangent to Circle({c1_center.label},{c1_radius}) and Circle({c2_center.label},{rad_1})')
-    if random.choies[True, False]:
+    if random.choice([True, False]):
         x,y, length = add_radius(c1_center.x, c1_center.y, c1_radius)
         x2, y2, length2 = add_radius(c2_center.x, c2_center.y, rad_1)
-        d.lines.extend([Line(c1_center, Point(x,y,""), label="length", dotted=True), Line(c2_center, Point(x2,y2,""), label="length", dotted=True)])
+        d.lines.extend([Line(c1_center, Point(x,y,""), label=f"{length}", dotted=True), Line(c2_center, Point(x2,y2,""), label=f"{length}", dotted=True)])
         d.entities.append(('cc_tangent_with_r',
                            [c1_center.label, length, c2_center.label, length2, p1.label, p2.label, P.label,
                             t1.label, t2.label]))
