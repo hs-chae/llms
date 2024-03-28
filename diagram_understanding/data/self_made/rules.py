@@ -1635,7 +1635,7 @@ def cc_tangent(d):
         c1_radius = random.uniform(200, 400)
         if assert_coord_in_range(c1_center.x + c1_radius, c1_center.y + c1_radius) and assert_coord_in_range(c1_center.x - c1_radius, c1_center.y - c1_radius):
             break
-        if ind > 30:
+        if ind > 100:
             return d
         ind += 1
 
