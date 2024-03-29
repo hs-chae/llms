@@ -230,10 +230,7 @@ def generate_full_conversation(diagram):
 
 
             if num_round == 0:
-                if random.random() > 0.5:
-                    question += "\n<image>"
-                else:
-                    question = "<image>\n" + question
+                question = "<image>\n" + question
 
             conversation.extend([{
                     "from": "human",

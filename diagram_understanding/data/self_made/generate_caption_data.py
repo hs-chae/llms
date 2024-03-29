@@ -105,10 +105,7 @@ def diagram_data(diagram, i,j, directory):
     id_name = f'{i}_{j}_' + str(random.randint(100,999)) + str(random.choice(['a','b','c','d','e','f','g','h']))
     img_path = f"{directory}/{id_name}.png"
     question = random.choice(caption_question)
-    if random.random() > 0.5:
-        question = question + "\n<image>"
-    else :
-        question = "<image>\n" + question
+    question = "<image>\n" + question
     final_data = {
         "id": id_name,
         "image" : img_path,
