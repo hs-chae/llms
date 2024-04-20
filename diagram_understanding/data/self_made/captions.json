@@ -797,7 +797,7 @@
 "I notice a semicircle with center <1> and radius <2>.",
 "My observation includes a semicircle centered at point <1> with radius <2>.",
 "A semicircle can be seen with its center at <1> and radius <2>.",
-"I perceive a semicircle centered at point <1> with radius <2> in the given context.",
+"I perceive a semicircle centered at point <1> with radius <2>   in the given context.",
 "Point <1> is the center of a semicircle with radius <2>."],
 
   "semicircle":

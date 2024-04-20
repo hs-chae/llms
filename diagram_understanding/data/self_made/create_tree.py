@@ -31,8 +31,9 @@ no_circle_rules = [rule for rule in rules_list if rule[1] not in ['add_free_circ
 
 test_rules = [
 
-    (cc_tangent,'cc_tangent'), #(cc_tangent_one, 'cc_tangent_one'),
-    (add_free_circle, 'add_free_circle')
+
+    (add_free_circle, 'add_free_circle'),
+    (circle_proj, 'circle_proj'),
 
     # (init_square, 'init_square')
               ]

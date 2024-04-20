@@ -17,7 +17,7 @@ num_images = 1000
 balance_limit = 0.2 * num_images
 
 
-type_path = "TF"
+type_path = "eval"
 #create the directory if it doesn't exist
 os.makedirs(f'./GOVU_data/{type_path}', exist_ok=True)
 

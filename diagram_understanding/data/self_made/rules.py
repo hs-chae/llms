@@ -948,6 +948,7 @@ def circle_proj(diagram: Diagram, circle = None):
 
     # Add the tangent point to the diagram
     diagram.points.append(tangent_point)
+    diagram.lines.append(Line(center,point, label=""))
     # diagram.entities.append(f'Point({tangent_label}) projected from Point{point.label} to Circle({center.label},{radius})')
     diagram.entities.append(('circle_proj', [point.label, center.label, f'{radius}', tangent_label]))
 
@@ -2496,13 +2497,19 @@ def circle_with_radius(d):
     return d
 
 def incenter3(diagram: Diagram):
+    ind = 0
+    while True:
+        # Randomly select three points A, B, and C
+        A, B, C = random.sample(diagram.points, 3)
 
-    # Randomly select three points A, B, and C
-    A, B, C = random.sample(diagram.points, 3)
-
-    length_AB = np.sqrt((B.x - A.x) ** 2 + (B.y - A.y) ** 2)
-    length_BC = np.sqrt((C.x - B.x) ** 2 + (C.y - B.y) ** 2)
-    length_CA = np.sqrt((A.x - C.x) ** 2 + (A.y - C.y) ** 2)
+        length_AB = np.sqrt((B.x - A.x) ** 2 + (B.y - A.y) ** 2)
+        length_BC = np.sqrt((C.x - B.x) ** 2 + (C.y - B.y) ** 2)
+        length_CA = np.sqrt((A.x - C.x) ** 2 + (A.y - C.y) ** 2)
+        if length_AB > 200 and length_BC > 200 and length_CA > 200:
+            break
+        if ind > 30:
+            return diagram
+        ind+=1
 
     X_x = (length_BC * A.x + length_CA * B.x + length_AB * C.x) / (length_AB + length_BC + length_CA)
     X_y = (length_BC * A.y + length_CA * B.y + length_AB * C.y) / (length_AB + length_BC + length_CA)
@@ -2560,18 +2567,19 @@ def incenter3(diagram: Diagram):
     # diagram.entities.append(f'Point({X.label}) : Incenter of {A.label}{B.label}{C.label}')
     #
     touchpoint = random.choice([touch_AB, touch_BC, touch_CA])
-    radius = random_length()
+    radius_label = str(random_length())
     diagram.points.append(touchpoint)
-    diagram.lines.append(Line(X, touchpoint, label=radius, dotted=True))
+    diagram.lines.append(Line(X, touchpoint, label=radius_label, dotted=True))
 
     diagram.circles.append(Circle(X, radius, f'Incenter Circle({X.label},{radius})'))
 
     # diagram.entities.append(f'Incircle({X.label},{radius}) for triangle {A.label}{B.label}{C.label}, with touchpoints {touch_AB.label}, {touch_BC.label}, {touch_CA.label}')
     diagram.entities.append(('incenter3',
-                             [A.label, B.label, C.label, X.label, f'{radius}', touchpoint.label]))
-    diagram.perpendiculars.append((Line(X, touch_AB, ''), Line(A, B, ''), touch_AB))
-    diagram.perpendiculars.append((Line(X, touch_BC, ''), Line(B, C, ''), touch_BC))
-    diagram.perpendiculars.append((Line(X, touch_CA, ''), Line(C, A, ''), touch_CA))
+                             [A.label, B.label, C.label, X.label, radius_label, touchpoint.label]))
+    # diagram.perpendiculars.append((Line(X, touch_AB, ''), Line(A, B, ''), touch_AB))
+    # diagram.perpendiculars.append((Line(X, touch_BC, ''), Line(B, C, ''), touch_BC))
+    # diagram.perpendiculars.append((Line(X, touch_CA, ''), Line(C, A, ''), touch_CA))
+    diagram.perpendiculars.append((Line(X, touchpoint, ''), Line(A, B, ''), touchpoint))
 
     return diagram
 

@@ -5892,6 +5892,2449 @@
         "F"
       ]
     ]
+  },
+  "eval" : {
+    "l_in_c": [
+      "How many points does line<3><4> intersect the circle centered at <1>?",
+      "0"
+    ],
+    "line": [
+    ],
+    "labelled_line": [
+
+
+    ],
+    "circle": [
+
+    ],
+    "infinite_line": [
+    ],
+    "triangle": [
+      [
+      "What is the label for the point that forms a triangle with <1> and <2>?",
+      "<3>"],
+      ["What is the name of the point that forms a triangle with <1> and <2>?",
+        "<3>"]
+    ],
+    "angle_bisector": [
+      ["What is the name of the point at the end of the angle bisector of <1><2><3>?",
+        "<4>"],
+      ["What is the end of the line that bisects the angle <1><2><3>?",
+        "<4>"],
+      ["Which point is at the end of the angle bisector of <1><2><3>?",
+        "<4>"]
+    ],
+    "circle_center": [
+      ["What is the label for the center of the circle circumscribed around triangle <1><2><3>?",
+        "<4>"],
+      ["What is the name of the point that is the center of the circle circumscribed around triangle <1><2><3>?",
+        "<4>"],
+      ["What is the name of the point that forms a triangle with <1> and <2>?",
+        "<3>"],
+      ["What is the name of the center of the circle that points <1> and <2> is on?",
+        "<3>"],
+      ["What is the name of the center of the circle that point is on?",
+        "<3>"]
+
+    ],
+    "equilateral_quadrilateral": [
+        ["What is the label for the point that forms a quadrilateral with <1>, <2>, and <3>?",
+            "<4>"],
+        ["What is the name of the point that forms a quadrilateral with <1>, <2>, and <4>?",
+            "<3>"]
+    ],
+    "equilateral_trapezoid": [
+        ["What is the label for the point that forms a trapezoid with <1>, <2>, and <3>?",
+            "<4>"],
+        ["What is the name of the point that forms a trapezoid with <1>, <2>, and <4>?",
+            "<3>"]
+
+    ],
+    "equilateral_triangle": [
+
+        ["What is the name of the point that forms a triangle with <1> and <2>?","<3>"],
+      ["What is  the name of the point that forms a equilateral triangle with <1> and <2>?","<3>"],
+      ["Which point in the image forms an equilateral triangle with <1> and <2>?","<3>"],
+      ["Which point in the image is a part of an equilateral triangle with <1> and <2>?","<3>"]],
+
+    "isosceles_triangle": [
+        ["What is the name of the point that forms a triangle with <1> and <2>?","<3>"],
+        ["What is  the name of the point that forms a isosceles triangle with <1> and <2>?","<3>"],
+        ["Which point in the image forms an isosceles triangle with <1> and <2>?","<3>"],
+        ["Which point in the image is a part of an isosceles triangle with <1> and <2>?","<3>"]
+
+    ],
+    "eqdia": [
+        ["What is the label for the point that forms a quadrilateral with equal diagonals with <1>, <2>, and <3>?","<4>"],
+        ["What is the name of the point that forms a quadrilateral with equal diagonals with <1>, <2>, and <4>?","<3>"],
+      ["Which point in the image forms a quadrilateral with equal diagonals with <1>, <2>, and <3>?","<4>"],
+      ["Which point in the image is a part of a quadrilateral with equal diagonals with <1>, <2>, and <3>?","<4>"]
+    ],
+    "eqdistance": [
+        ["Which point in the image has the same distance from <1> as <2> has from <3>?","<4>"],
+        ["What is the name of the point that has the same distance from <1> as <2> has from <3>?","<4>"],
+        ["What is the label for the point that has the same distance from <1> as <2> has from <3>?","<4>"],
+        ["What is the name of the point that has the same distance from <1> as <2> has from <3>?","<4>"],
+
+    ],
+    "foot": [
+      ["Which point in the image is the foot on line <2><3> from <1>?","<4>"],
+      ["What is the name of the point that is the foot on line <2><3> from <1>?","<4>"],
+      ["Onto which point does <1> project onto line <2><3>?","<4>"],
+      ["Name the foot of <1> onto line <2><3>.","<4>"]
+
+    ],
+    "incenter": [
+      ["What is the label for the incenter of triangle <1><2><3>?","<4>"],
+     ["Name the center of the circle that inscribes triangle <1><2><3>.","<4>"],
+      ["What is the name of the incenter of triangle <1><2><3>?","<4>"],
+      ["Which point in the image is the incenter of triangle <1><2><3>?","<4>"]
+
+    ],
+    "incenter3": [
+      ["What is the radius of the circle inscribed in triangle <1><2><3>?","<5>"],
+      ["How long is the radius of the circle with center <4>?", "<5>"],
+      ["What is the name of the center of the circle inscribed in triangle <1><2><3>?","<4>"],
+      ["Which point in the image is the center of the circle inscribed in triangle <1><2><3>?","<4>"]
+
+    ],
+    "midpoint": [
+        ["What is the label for the point that is the midpoint of <1><2>?","<3>"],
+        ["What is the name of the point that is the midpoint of <1><2>?","<3>"],
+        ["Which point in the image is the midpoint of <1><2>?","<3>"],
+        ["What is the name of the point that is the midpoint of <1><2>?","<3>"]
+
+    ],
+    "perp_line": [
+       ["Which point in the image is the intersection of perpendicular lines from <3> and <2>?","<1>"],
+        ["What is the name of the point that is the intersection of perpendicular lines from <3> and <2>?","<1>"],
+        ["What is the label for the point that is the intersection of perpendicular lines from <3> and <2>?","<1>"],
+        ["What is the other end of the line that is perpendicular to <1><2> extending out from <1>?","<3>"],
+
+    ],
+    "circle_proj": [
+      [
+        "Is there a circle?",
+        "T"
+      ],
+      [
+        "Is the center of the circle labeled <2>?",
+        "T"
+      ],
+      [
+        "Is there a point labeled <1> outside the circle?",
+        "T"
+      ],
+      [
+        "Is there a point labeled <4> on the circle?",
+        "T"
+      ],
+      [
+        "Is <4> the projection of <1> onto the circle?",
+        "T"
+      ],
+      [
+        "Does the line segment from <1> to <4> intersect the circle at a right angle?",
+        "T"
+      ]
+    ],
+    "mirror": [
+      [
+        "Is there a line segment?",
+        "T"
+      ],
+      [
+        "Is the line segment labeled <1><3>?",
+        "T"
+      ],
+      [
+        "Is there a point <2>?",
+        "T"
+      ],
+      [
+        "Is <2> the midpoint of line segment <1><3>?",
+        "T"
+      ],
+      [
+        "Does <2> divide <1><3> into two equal parts?",
+        "T"
+      ],
+      [
+        "Are <1> and <3> equidistant from <2>?",
+        "T"
+      ]
+    ],
+    "right_iso": [
+      [
+        "Is triangle <1><2><3> a right triangle?",
+        "T"
+      ],
+      [
+        "Is the right angle of triangle <1><2><3> at vertex <1>?",
+        "T"
+      ],
+      [
+        "Is triangle <1><2><3> an isosceles triangle?",
+        "T"
+      ],
+      [
+        "Are sides <1><2> and <1><3> of triangle <1><2><3> equal in length?",
+        "T"
+      ],
+      [
+        "Is vertex <2> of triangle <1><2><3> the right angle?",
+        "F"
+      ],
+      [
+        "Is triangle <1><2><3> an equilateral triangle?",
+        "F"
+      ]
+    ],
+    "on_bline": [
+      [
+        "Is point <3> on the perpendicular bisector of line segment <1><2>?",
+        "T"
+      ],
+      [
+        "Does the perpendicular bisector of line segment <1><2> intersect <1><2> at its midpoint <4>?",
+        "T"
+      ],
+      [
+        "Is point <3> the midpoint of line segment <1><2>?",
+        "F"
+      ],
+      [
+        "Is point <4> on line segment <1><2>?",
+        "T"
+      ],
+      [
+        "Is point <4> the midpoint of line segment <1><2>?",
+        "T"
+      ],
+      [
+        "Is the perpendicular bisector of line segment <1><2> perpendicular to <1><2>?",
+        "T"
+      ]
+    ],
+    "on_circle_with_r": [
+      [
+        "Is there a circle with center <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the circle with center <1> equal to the length of <1><2>?",
+        "T"
+      ],
+      [
+        "Is the length of radius <1><2> given as <4>?",
+        "T"
+      ],
+      [
+        "Does the circle with center <1> pass through point <3>?",
+        "T"
+      ],
+      [
+        "Is point <2> on the circle with center <1>?",
+        "T"
+      ],
+      [
+        "Is point <3> the center of the circle?",
+        "F"
+      ]
+    ],
+    "on_circle": [
+      [
+        "Is there a circle with center <1>?",
+        "T"
+      ],
+      [
+        "Does point <3> lie on the circle with center <1>?",
+        "T"
+      ],
+      [
+        "Is point <3> the center of the circle?",
+        "F"
+      ],
+      [
+        "Is point <1> on the circle?",
+        "F"
+      ],
+      [
+        "Does the circle pass through point <1>?",
+        "F"
+      ],
+      [
+        "Is the radius of the circle given?",
+        "F"
+      ]
+    ],
+    "on_line": [
+      [
+        "Is there a line <1><2>?",
+        "T"
+      ],
+      [
+        "Does point <3> lie on line <1><2>?",
+        "T"
+      ],
+      [
+        "Is point <3> an endpoint of line segment <1><2>?",
+        "F"
+      ],
+      [
+        "Is point <3> the midpoint of line segment <1><2>?",
+        "F"
+      ],
+      [
+        "Does line <1><2> pass through point <3>?",
+        "T"
+      ],
+      [
+        "Are points <1>, <2>, and <3> collinear?",
+        "T"
+      ]
+    ],
+    "on_pline": [
+      [
+        "Are there two lines <1><2> and <3><4>?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> parallel?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> equidistant from each other at all points?",
+        "T"
+      ],
+      [
+        "Do lines <1><2> and <3><4> intersect?",
+        "F"
+      ],
+      [
+        "Is the distance between lines <1><2> and <3><4> constant?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> perpendicular?",
+        "F"
+      ]
+    ],
+    "parallelogram": [
+      [
+        "Is there a parallelogram?",
+        "T"
+      ],
+      [
+        "Are the vertices of the parallelogram labeled <1>, <2>, <3>, and <4>?",
+        "T"
+      ],
+      [
+        "Does the parallelogram have two pairs of parallel sides?",
+        "T"
+      ],
+      [
+        "Are opposite sides of the parallelogram equal in length?",
+        "T"
+      ],
+      [
+        "Are adjacent sides of the parallelogram equal in length?",
+        "F"
+      ],
+      [
+        "Are the diagonals of the parallelogram perpendicular?",
+        "F"
+      ]
+    ],
+    "pentagon": [
+      [
+        "Is there a pentagon?",
+        "T"
+      ],
+      [
+        "Are the vertices of the pentagon labeled <1>, <2>, <3>, <4>, and <5>?",
+        "T"
+      ],
+      [
+        "Does the pentagon have five sides?",
+        "T"
+      ],
+      [
+        "Does the pentagon have five vertices?",
+        "T"
+      ],
+      [
+        "Are all sides of the pentagon equal in length?",
+        "F"
+      ],
+      [
+        "Are all angles in the pentagon equal in measure?",
+        "F"
+      ]
+    ],
+    "trapezoid": [
+      [
+        "Is there a trapezoid?",
+        "T"
+      ],
+      [
+        "Is the trapezoid labeled <1><2><3><4>?",
+        "T"
+      ],
+      [
+        "Does the trapezoid have four sides?",
+        "T"
+      ],
+      [
+        "Does the trapezoid have one pair of parallel sides?",
+        "T"
+      ],
+      [
+        "Are all sides of the trapezoid equal in length?",
+        "F"
+      ],
+      [
+        "Does the trapezoid have two pairs of parallel sides?",
+        "F"
+      ]
+    ],
+    "r_triangle": [
+      [
+        "Is there a triangle <1><2><3>?",
+        "T"
+      ],
+      [
+        "Is triangle <1><2><3> a right triangle?",
+        "T"
+      ],
+      [
+        "Is the right angle of triangle <1><2><3> at vertex <1>?",
+        "T"
+      ],
+      [
+        "Is vertex <2> of triangle <1><2><3> the right angle?",
+        "F"
+      ],
+      [
+        "Is vertex <3> of triangle <1><2><3> the right angle?",
+        "F"
+      ],
+      [
+        "Is triangle <1><2><3> an isosceles triangle?",
+        "F"
+      ]
+    ],
+    "rectangle": [
+      [
+        "Is there a rectangle?",
+        "T"
+      ],
+      [
+        "Are the vertices of the rectangle labeled <1>, <2>, <3>, and <4>?",
+        "T"
+      ],
+      [
+        "Does the rectangle have four right angles?",
+        "T"
+      ],
+      [
+        "Are opposite sides of the rectangle parallel?",
+        "T"
+      ],
+      [
+        "Are adjacent sides of the rectangle equal in length?",
+        "F"
+      ],
+      [
+        "Are the diagonals of the rectangle equal in length?",
+        "T"
+      ]
+    ],
+    "reflect": [
+      [
+        "Is there a line <2><3>?",
+        "T"
+      ],
+      [
+        "Is point <4> the reflection of point <1> across line <2><3>?",
+        "T"
+      ],
+      [
+        "Does line <2><3> act as the line of reflection between points <1> and <4>?",
+        "T"
+      ],
+      [
+        "Are points <1> and <4> equidistant from line <2><3>?",
+        "T"
+      ],
+      [
+        "Is point <1> on line <2><3>?",
+        "F"
+      ],
+      [
+        "Is point <4> on line <2><3>?",
+        "F"
+      ]
+    ],
+    "square": [
+      [
+        "Is there a square?",
+        "T"
+      ],
+      [
+        "Is the square labeled <1><2><3><4>?",
+        "T"
+      ],
+      [
+        "Does the square have four congruent sides?",
+        "T"
+      ],
+      [
+        "Does the square have four right angles?",
+        "T"
+      ],
+      [
+        "Are the diagonals of the square equal in length?",
+        "T"
+      ],
+      [
+        "Are the diagonals of the square perpendicular?",
+        "T"
+      ]
+    ],
+    "triangle12": [
+      [
+        "Is there a triangle <1><2><3>?",
+        "T"
+      ],
+      [
+        "Is the ratio of the length of side <1><2> to the length of side <2><3> in triangle <1><2><3> equal to 1 : <4>?",
+        "T"
+      ],
+      [
+        "Is side <1><2> of triangle <1><2><3> longer than side <2><3>?",
+        "F"
+      ],
+      [
+        "Is side <2><3> of triangle <1><2><3> <4> times the length of side <1><2>?",
+        "T"
+      ],
+      [
+        "Are sides <1><2> and <2><3> of triangle <1><2><3> equal in length?",
+        "F"
+      ],
+      [
+        "Is the perimeter of triangle <1><2><3> provided?",
+        "F"
+      ]
+    ],
+    "inf_tangent": [
+      [
+        "Is there an infinite line?",
+        "T"
+      ],
+      [
+        "Is there a circle with center <1>?",
+        "T"
+      ],
+      [
+        "Is the infinite line tangent to the circle with center <1>?",
+        "T"
+      ],
+      [
+        "Does the infinite line intersect the circle with center <1> at only one point?",
+        "T"
+      ],
+      [
+        "Is the point of tangency labeled <2>?",
+        "T"
+      ],
+      [
+        "Does the infinite line pass through the center of the circle?",
+        "F"
+      ]
+    ],
+    "tangent": [
+      [
+        "Is there a circle <1>?",
+        "T"
+      ],
+      [
+        "Is there a line <3><4>?",
+        "T"
+      ],
+      [
+        "Is line <3><4> tangent to circle <1>?",
+        "T"
+      ],
+      [
+        "Is the point of tangency labeled <2>?",
+        "T"
+      ],
+      [
+        "Does line <3><4> intersect circle <1> at only one point?",
+        "T"
+      ],
+      [
+        "Does line <3><4> pass through the center of circle <1>?",
+        "F"
+      ]
+    ],
+    "trisect": [
+      [
+        "Do lines <1><3> and <1><4> divide angle <5><1><2> into three angles?",
+        "T"
+      ],
+      [
+        "Are the three angles formed by lines <1><3> and <1><4> in angle <5><1><2> congruent?",
+        "T"
+      ],
+      [
+        "Do lines <1><3> and <1><4> intersect at vertex <1> of angle <5><1><2>?",
+        "T"
+      ],
+      [
+        "Is angle <5><1><2> bisected by line <1><3>?",
+        "F"
+      ],
+      [
+        "Is angle <5><1><2> bisected by line <1><4>?",
+        "F"
+      ],
+      [
+        "Are lines <1><3> and <1><4> perpendicular to each other?",
+        "F"
+      ]
+    ],
+    "trisegment": [
+      [
+        "Is line segment <1><2> divided into three parts by points <3> and <4>?",
+        "T"
+      ],
+      [
+        "Are the three parts of line segment <1><2> divided by points <3> and <4> equal in length?",
+        "T"
+      ],
+      [
+        "Is point <3> closer to endpoint <1> than point <4> on line segment <1><2>?",
+        "F"
+      ],
+      [
+        "Is point <4> the midpoint of line segment <1><2>?",
+        "F"
+      ],
+      [
+        "Does point <3> divide line segment <1><2> into two equal parts?",
+        "F"
+      ],
+      [
+        "Is the ratio of the length of <1><3> to <3><4> on line segment <1><2> 1:2?",
+        "F"
+      ]
+    ],
+    "c_tangent_with_r": [
+      [
+        "Is there a circle centered at <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the circle centered at <1> given as <2>?",
+        "T"
+      ],
+      [
+        "Are there two lines emanating from point <5>?",
+        "T"
+      ],
+      [
+        "Are the two lines emanating from point <5> tangent to the circle centered at <1>?",
+        "T"
+      ],
+      [
+        "Are the points of tangency of the two lines and the circle labeled <3> and <4>?",
+        "T"
+      ],
+      [
+        "Do the two tangent lines intersect inside the circle?",
+        "F"
+      ]
+    ],
+    "c_tangent": [
+      [
+        "Is there a circle <1>?",
+        "T"
+      ],
+      [
+        "Are there two lines emanating from point <4>?",
+        "T"
+      ],
+      [
+        "Are the two lines emanating from point <4> tangent to circle <1>?",
+        "T"
+      ],
+      [
+        "Are the points of tangency of the two lines and circle <1> labeled <2> and <3>?",
+        "T"
+      ],
+      [
+        "Do the two tangent lines intersect inside circle <1>?",
+        "F"
+      ],
+      [
+        "Is point <4> inside circle <1>?",
+        "F"
+      ]
+    ],
+    "cc_tangent": [
+      [
+        "Are there two circles, one with center <1> and another with center <2>?",
+        "T"
+      ],
+      [
+        "Are there two lines <3><5> and <4><5>?",
+        "T"
+      ],
+      [
+        "Is line <3><5> tangent to both circles?",
+        "T"
+      ],
+      [
+        "Is line <4><5> tangent to both circles?",
+        "T"
+      ],
+      [
+        "Do lines <3><5> and <4><5> intersect?",
+        "F"
+      ],
+      [
+        "Are the centers of the circles <1> and <2> collinear with point <5>?",
+        "F"
+      ]
+    ],
+    "cc_tangent_with_r": [
+      [
+        "Is there a circle centered at <1> with radius <2>?",
+        "T"
+      ],
+      [
+        "Is there a circle centered at <3> with radius <4>?",
+        "T"
+      ],
+      [
+        "Are there two common tangent lines <5><7> and <6><7> to both circles?",
+        "T"
+      ],
+      [
+        "Do the common tangent lines <5><7> and <6><7> intersect?",
+        "T"
+      ],
+      [
+        "Is the point of intersection of the common tangent lines labeled <7>?",
+        "T"
+      ],
+      [
+        "Are the two circles externally tangent to each other?",
+        "F"
+      ]
+    ],
+    "cc_tangent_one": [
+      [
+        "Are there two circles, Circle <1> and Circle <3>?",
+        "T"
+      ],
+      [
+        "Is there a line <5><6>?",
+        "T"
+      ],
+      [
+        "Is line <5><6> tangent to both Circle <1> and Circle <3>?",
+        "T"
+      ],
+      [
+        "Does line <5><6> touch each circle at only one point?",
+        "T"
+      ],
+      [
+        "Do Circle <1> and Circle <3> intersect?",
+        "F"
+      ],
+      [
+        "Does line <5><6> pass through the centers of both circles?",
+        "F"
+      ]
+    ],
+    "parallel": [
+      [
+        "Are there two lines <1><2> and <3><4>?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> parallel to each other?",
+        "T"
+      ],
+      [
+        "Do lines <1><2> and <3><4> intersect?",
+        "F"
+      ],
+      [
+        "Is the distance between lines <1><2> and <3><4> constant?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> perpendicular to each other?",
+        "F"
+      ],
+      [
+        "Do lines <1><2> and <3><4> coincide?",
+        "F"
+      ]
+    ],
+    "intersect_ll": [
+      [
+        "Are there two lines <1><2> and <3><4>?",
+        "T"
+      ],
+      [
+        "Do lines <1><2> and <3><4> intersect?",
+        "T"
+      ],
+      [
+        "Is the point of intersection of lines <1><2> and <3><4> labeled <5>?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> parallel?",
+        "F"
+      ],
+      [
+        "Are lines <1><2> and <3><4> perpendicular?",
+        "F"
+      ],
+      [
+        "Do lines <1><2> and <3><4> coincide?",
+        "F"
+      ]
+    ],
+    "intersect_cl": [
+      [
+        "Is there a circle <1>?",
+        "T"
+      ],
+      [
+        "Is there a line <3><4>?",
+        "T"
+      ],
+      [
+        "Do circle <1> and line <3><4> intersect?",
+        "T"
+      ],
+      [
+        "Are there two points of intersection between circle <1> and line <3><4>?",
+        "T"
+      ],
+      [
+        "Are the points of intersection labeled <5> and <6>?",
+        "T"
+      ],
+      [
+        "Is line <3><4> tangent to circle <1>?",
+        "F"
+      ]
+    ],
+    "intersect_cc": [
+      [
+        "Are there two circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Do circles <1> and <3> intersect?",
+        "T"
+      ],
+      [
+        "Are there two points of intersection between circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Are the points of intersection labeled <5> and <6>?",
+        "T"
+      ],
+      [
+        "Are circles <1> and <3> tangent to each other?",
+        "F"
+      ],
+      [
+        "Do circles <1> and <3> have the same center?",
+        "F"
+      ]
+    ],
+    "touches_cc": [
+      [
+        "Are there two circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Do circles <1> and <3> touch each other?",
+        "T"
+      ],
+      [
+        "Is the point where circles <1> and <3> touch labeled <5>?",
+        "T"
+      ],
+      [
+        "Do circles <1> and <3> intersect at two points?",
+        "F"
+      ],
+      [
+        "Is point <5> inside either circle <1> or circle <3>?",
+        "F"
+      ],
+      [
+        "Are circles <1> and <3> concentric?",
+        "F"
+      ]
+    ],
+    "touches_clc": [
+      [
+        "Are there two circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Is there a line <5><6>?",
+        "T"
+      ],
+      [
+        "Is point <7> the point of tangency between circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Is point <7> located on line <5><6>?",
+        "T"
+      ],
+      [
+        "Does line <5><6> intersect circles <1> and <3> at two points each?",
+        "F"
+      ],
+      [
+        "Is point <7> the midpoint of line segment <5><6>?",
+        "F"
+      ]
+    ],
+    "touches_cc2": [
+      [
+        "Are there two circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Are circles <1> and <3> tangent to each other?",
+        "T"
+      ],
+      [
+        "Is the point of tangency between circles <1> and <3> labeled <5>?",
+        "T"
+      ],
+      [
+        "Do circles <1> and <3> intersect at two points?",
+        "F"
+      ],
+      [
+        "Is point <5> inside either circle <1> or circle <3>?",
+        "F"
+      ],
+      [
+        "Are circles <1> and <3> concentric?",
+        "F"
+      ]
+    ],
+    "touches_clc2": [
+      [
+        "Are there two circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Is there a line tangent to both circles <1> and <3>?",
+        "T"
+      ],
+      [
+        "Is circle <1> tangent to the line at point <5>?",
+        "T"
+      ],
+      [
+        "Is circle <3> tangent to the line at point <6>?",
+        "T"
+      ],
+      [
+        "Do circles <1> and <3> touch each other?",
+        "F"
+      ],
+      [
+        "Is the line passing through the centers of circles <1> and <3>?",
+        "F"
+      ]
+    ],
+    "rhombus": [
+      [
+        "Is there a four-sided polygon <1><2><3><4>?",
+        "T"
+      ],
+      [
+        "Does polygon <1><2><3><4> have equal sides?",
+        "T"
+      ],
+      [
+        "Is polygon <1><2><3><4> a rhombus?",
+        "T"
+      ],
+      [
+        "Are the diagonals of rhombus <1><2><3><4> perpendicular to each other?",
+        "T"
+      ],
+      [
+        "Are the opposite angles of rhombus <1><2><3><4> equal?",
+        "T"
+      ],
+      [
+        "Is rhombus <1><2><3><4> a square?",
+        "F"
+      ]
+    ],
+    "quadrilateral": [
+      [
+        "Is there a quadrilateral <1><2><3><4>?",
+        "T"
+      ],
+      [
+        "Does quadrilateral <1><2><3><4> have four sides?",
+        "T"
+      ],
+      [
+        "Does quadrilateral <1><2><3><4> have four vertices?",
+        "T"
+      ],
+      [
+        "Are the opposite sides of quadrilateral <1><2><3><4> parallel?",
+        "F"
+      ],
+      [
+        "Are all sides of quadrilateral <1><2><3><4> equal in length?",
+        "F"
+      ],
+      [
+        "Are all angles in quadrilateral <1><2><3><4> right angles?",
+        "F"
+      ]
+    ],
+    "convex_quadrilateral": [
+      [
+        "Is there a quadrilateral <1><2><3><4>?",
+        "T"
+      ],
+      [
+        "Is quadrilateral <1><2><3><4> convex?",
+        "T"
+      ],
+      [
+        "Do the diagonals of quadrilateral <1><2><3><4> lie inside the quadrilateral?",
+        "T"
+      ],
+      [
+        "Do any two sides of quadrilateral <1><2><3><4> intersect outside the quadrilateral?",
+        "F"
+      ],
+      [
+        "Are all interior angles of quadrilateral <1><2><3><4> less than 180 degrees?",
+        "T"
+      ],
+      [
+        "Is quadrilateral <1><2><3><4> a concave quadrilateral?",
+        "F"
+      ]
+    ],
+    "connect_center": [
+      [
+        "Are there two circles, one centered at <1> and the other at <3>?",
+        "T"
+      ],
+      [
+        "Is there a line segment connecting the centers of the two circles?",
+        "T"
+      ],
+      [
+        "Does the line segment joining the centers pass through the point of tangency of the circles?",
+        "F"
+      ],
+      [
+        "Are the two circles concentric?",
+        "F"
+      ],
+      [
+        "Does the line segment joining the centers bisect both circles?",
+        "F"
+      ],
+      [
+        "Is the line segment a diameter of either circle?",
+        "F"
+      ]
+    ],
+    "parabola": [
+      [
+        "Is there a parabola-like curve?",
+        "T"
+      ],
+      [
+        "Is the vertex of the parabola located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the parabola opening upwards or downwards?",
+        "F"
+      ],
+      [
+        "Is the axis of symmetry of the parabola vertical?",
+        "F"
+      ],
+      [
+        "Is the parabola a function?",
+        "F"
+      ],
+      [
+        "Is point <1> the focus of the parabola?",
+        "F"
+      ]
+    ],
+    "parabola_tangent": [
+      [
+        "Is there a parabola?",
+        "T"
+      ],
+      [
+        "Is there a line tangent to the parabola?",
+        "T"
+      ],
+      [
+        "Is the point of tangency between the parabola and the line labeled <2>?",
+        "T"
+      ],
+      [
+        "Does the tangent line intersect the parabola at two points?",
+        "F"
+      ],
+      [
+        "Is point <2> the vertex of the parabola?",
+        "F"
+      ],
+      [
+        "Is the tangent line perpendicular to the axis of symmetry of the parabola at point <2>?",
+        "F"
+      ]
+    ],
+    "parab_line_intersect": [
+      [
+        "Is there a parabola?",
+        "T"
+      ],
+      [
+        "Is there a line intersecting the parabola?",
+        "T"
+      ],
+      [
+        "Are there two points of intersection between the parabola and the line?",
+        "T"
+      ],
+      [
+        "Are the points of intersection labeled <1> and <2>?",
+        "T"
+      ],
+      [
+        "Is the line tangent to the parabola?",
+        "F"
+      ],
+      [
+        "Does the line pass through the vertex of the parabola?",
+        "F"
+      ]
+    ],
+    "ellipse": [
+      [
+        "Is there an ellipse?",
+        "T"
+      ],
+      [
+        "Is the center of the ellipse located at point <1>?",
+        "T"
+      ],
+      [
+        "Is <2> the major axis of the ellipse?",
+        "T"
+      ],
+      [
+        "Is <3> the minor axis of the ellipse?",
+        "T"
+      ],
+      [
+        "Is the ellipse a circle?",
+        "F"
+      ],
+      [
+        "Are the foci of the ellipse labeled?",
+        "F"
+      ]
+    ],
+    "ellipse_line_intersect": [
+      [
+        "Is there an ellipse?",
+        "T"
+      ],
+      [
+        "Is there a line intersecting the ellipse?",
+        "T"
+      ],
+      [
+        "Are there two points of intersection between the ellipse and the line?",
+        "T"
+      ],
+      [
+        "Are the points of intersection labeled <1> and <2>?",
+        "T"
+      ],
+      [
+        "Is the line tangent to the ellipse?",
+        "F"
+      ],
+      [
+        "Does the line pass through the center of the ellipse?",
+        "F"
+      ]
+    ],
+    "random_curve": [
+      [
+        "Is there a curve?",
+        "T"
+      ],
+      [
+        "Does the curve have a specific name?",
+        "F"
+      ],
+      [
+        "Is the curve closed?",
+        "F"
+      ],
+      [
+        "Is the curve smooth?",
+        "F"
+      ],
+      [
+        "Is the curve a function?",
+        "F"
+      ],
+      [
+        "Are any points on the curve labeled?",
+        "F"
+      ]
+    ],
+    "triangle_with_height": [
+      [
+        "Is there a triangle <1><2><3>?",
+        "T"
+      ],
+      [
+        "Is there a height of triangle <1><2><3>?",
+        "T"
+      ],
+      [
+        "Does the height extend from vertex <3> to line <1><2>?",
+        "T"
+      ],
+      [
+        "Is the height labeled <4>?",
+        "T"
+      ],
+      [
+        "Is the height perpendicular to line <1><2>?",
+        "T"
+      ],
+      [
+        "Does the height bisect line <1><2>?",
+        "F"
+      ]
+    ],
+    "circle_with_radius": [
+      [
+        "Is there a circle?",
+        "T"
+      ],
+      [
+        "Is the center of the circle located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the circle labeled <2>?",
+        "T"
+      ],
+      [
+        "Is the circle completely determined by its center and radius?",
+        "T"
+      ],
+      [
+        "Is the diameter of the circle given?",
+        "F"
+      ],
+      [
+        "Are any points on the circle labeled?",
+        "F"
+      ]
+    ],
+    "circular_sector_with_radius": [
+      [
+        "Is there a circular sector?",
+        "T"
+      ],
+      [
+        "Is the center of the circular sector located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the circular sector labeled <2>?",
+        "T"
+      ],
+      [
+        "Is the angle of the circular sector labeled <3>?",
+        "T"
+      ],
+      [
+        "Is the circular sector a semicircle?",
+        "F"
+      ],
+      [
+        "Are the endpoints of the circular sector's arc labeled?",
+        "F"
+      ]
+    ],
+    "circular_sector": [
+      [
+        "Is there a circular sector?",
+        "T"
+      ],
+      [
+        "Is the center of the circular sector located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the angle of the circular sector labeled <2>?",
+        "T"
+      ],
+      [
+        "Is the radius of the circular sector given?",
+        "F"
+      ],
+      [
+        "Is the circular sector a semicircle?",
+        "F"
+      ],
+      [
+        "Are the endpoints of the circular sector's arc labeled?",
+        "F"
+      ]
+    ],
+    "semicircle_with_radius": [
+      [
+        "Is there a semicircle?",
+        "T"
+      ],
+      [
+        "Is the center of the semicircle located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the semicircle labeled <2>?",
+        "T"
+      ],
+      [
+        "Is the angle of the semicircle 180 degrees?",
+        "T"
+      ],
+      [
+        "Is the semicircle a complete circle?",
+        "F"
+      ],
+      [
+        "Are the endpoints of the semicircle's diameter labeled?",
+        "F"
+      ]
+    ],
+    "semicircle": [
+      [
+        "Is there a semicircle?",
+        "T"
+      ],
+      [
+        "Is the center of the semicircle located at point <1>?",
+        "T"
+      ],
+      [
+        "Is the radius of the semicircle given?",
+        "F"
+      ],
+      [
+        "Is the angle of the semicircle 180 degrees?",
+        "T"
+      ],
+      [
+        "Is the semicircle a complete circle?",
+        "F"
+      ],
+      [
+        "Are the endpoints of the semicircle's diameter labeled?",
+        "F"
+      ]
+    ],
+    "l_out_c": [
+      [
+        "Is there a circle <1>?",
+        "T"
+      ],
+      [
+        "Is there a line <3><4>?",
+        "T"
+      ],
+      [
+        "Is line <3><4> outside circle <1>?",
+        "T"
+      ],
+      [
+        "Does line <3><4> intersect circle <1>?",
+        "F"
+      ],
+      [
+        "Is line <3><4> tangent to circle <1>?",
+        "F"
+      ],
+      [
+        "Does line <3><4> pass through the center of circle <1>?",
+        "F"
+      ]
+    ],
+    "ll_angle": [
+      [
+        "Are there two lines <1><2> and <3><4>?",
+        "T"
+      ],
+      [
+        "Do lines <1><2> and <3><4> intersect?",
+        "T"
+      ],
+      [
+        "Is the point of intersection of lines <1><2> and <3><4> labeled <5>?",
+        "T"
+      ],
+      [
+        "Is the angle formed by the intersection of lines <1><2> and <3><4> <6> degrees?",
+        "T"
+      ],
+      [
+        "Are lines <1><2> and <3><4> perpendicular?",
+        "F"
+      ],
+      [
+        "Are lines <1><2> and <3><4> parallel?",
+        "F"
+      ]
+    ]
+  },
+
+  "not_existing_TF" : {
+    "line": [
+      [
+        "Is there a line connecting two points in the image?",
+        "F"
+      ],
+      [
+        "Are there any lines visible in the image?",
+        "F"
+      ],
+      [
+        "Is the number of lines greater than the number of circles in the image?",
+        "F"
+      ],
+      [
+        "Are there any points connected by a line in the image?",
+        "F"
+      ]
+    ],
+    "labelled_line": [
+      [
+        "Does the image contain a line with a specified length?",
+        "F"
+      ],
+      [
+        "Is the length given for any line in the image?",
+        "F"
+      ],
+      [
+        "Are there any points connected by a line of given length in the image?",
+        "F"
+      ]
+    ],
+    "circle": [
+      [
+        "Does the image show a circle with a specified center point?",
+        "F"
+      ],
+      [
+        "Is the radius specified for any circle in the image?",
+        "F"
+      ],
+      [
+        "Is any point marked as the center of a circle in the image?",
+        "F"
+      ]
+    ],
+    "infinite_line": [
+      [
+        "Is there an infinite line passing through a point in the image?",
+        "F"
+      ],
+      [
+        "Does any infinite line pass through a specified point in the image?",
+        "F"
+      ],
+      [
+        "Does the image contain any infinite lines?",
+        "F"
+      ]
+    ],
+    "triangle": [
+      [
+        "Is a triangle visible in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any triangle in the image?",
+        "F"
+      ],
+      [
+        "Does the image contain any three-sided polygon?",
+        "F"
+      ]
+    ],
+    "angle_bisector": [
+      [
+        "Is there a line bisecting an angle in the image?",
+        "F"
+      ],
+      [
+        "Are the endpoints specified for any angle bisector in the image?",
+        "F"
+      ],
+      [
+        "Does the image show any angle bisected by a line?",
+        "F"
+      ]
+    ],
+    "circle_center": [
+      [
+        "Does the image contain the circumcenter of a triangle?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any triangle with a circumcenter in the image?",
+        "F"
+      ]
+    ],
+    "equilateral_quadrilateral": [
+      [
+        "Is an equilateral quadrilateral shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any equilateral quadrilateral in the image?",
+        "F"
+      ],
+      [
+        "Does the image contain a quadrilateral with all equal sides?",
+        "F"
+      ]
+    ],
+    "equilateral_trapezoid": [
+      [
+        "Does the image show an equilateral trapezoid?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any equilateral trapezoid in the image?",
+        "F"
+      ],
+      [
+        "Is there a trapezoid with all equal sides in the image?",
+        "F"
+      ]
+    ],
+    "equilateral_triangle": [
+      [
+        "Is an equilateral triangle shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any equilateral triangle in the image?",
+        "F"
+      ],
+      [
+        "Does the image contain a triangle with all equal sides?",
+        "F"
+      ]
+    ],
+    "isosceles_triangle": [
+      [
+        "Does the image show an isosceles triangle?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any isosceles triangle in the image?",
+        "F"
+      ],
+      [
+        "Is there a triangle with two equal sides in the image?",
+        "F"
+      ]
+    ],
+    "eqdia": [
+      [
+        "Is there a quadrilateral with equal diagonals in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any quadrilateral with equal diagonals in the image?",
+        "F"
+      ],
+      [
+        "Do the diagonals of any quadrilateral have equal length in the image?",
+        "F"
+      ]
+    ],
+    "eqdistance": [
+      [
+        "Does the image show two pairs of points equidistant from each other?",
+        "F"
+      ],
+      [
+        "Are any points specified that are equidistant like another pair in the image?",
+        "F"
+      ],
+      [
+        "Are there any pairs of equidistant points depicted in the image?",
+        "F"
+      ]
+    ],
+    "foot": [
+      [
+        "Is there a point forming a right angle with another point and line in the image?",
+        "F"
+      ],
+      [
+        "Is any point specified that forms a right angle with a point and line in the image?",
+        "F"
+      ],
+      [
+        "Does the image show a perpendicular from a point to a line?",
+        "F"
+      ]
+    ],
+    "incenter": [
+      [
+        "Is there a triangle with an inscribed circle in the image?",
+        "F"
+      ],
+      [
+        "Is the center specified for any inscribed circle of a triangle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict the incenter of any triangle?",
+        "F"
+      ]
+    ],
+    "incenter2": [
+      [
+        "Does the image show an inscribed circle tangent to the sides of a triangle?",
+        "F"
+      ],
+      [
+        "Are the points of tangency specified for any inscribed circle in a triangle in the image?",
+        "F"
+      ],
+      [
+        "Is there a triangle with an inscribed circle touching its sides in the image?",
+        "F"
+      ]
+    ],
+    "incenter3": [
+      [
+        "Is a triangle with an inscribed circle shown in the image?",
+        "F"
+      ],
+      [
+        "Is the incenter specified for any triangle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict the center of any inscribed circle in a triangle?",
+        "F"
+      ]
+    ],
+    "midpoint": [
+      [
+        "Does the image show a point equidistant from two other points?",
+        "F"
+      ],
+      [
+        "Is any point specified as equidistant from two others in the image?",
+        "F"
+      ],
+      [
+        "Is there any point depicted as the midpoint of a segment in the image?",
+        "F"
+      ]
+    ],
+    "perp_line": [
+      [
+        "Does the image contain two perpendicular lines?",
+        "F"
+      ],
+      [
+        "Are any lines specified that intersect at a right angle in the image?",
+        "F"
+      ],
+      [
+        "Are perpendicular lines depicted in the image?",
+        "F"
+      ]
+    ],
+    "circle_proj": [
+      [
+        "Is there a point that is the projection of another onto a circle in the image?",
+        "F"
+      ],
+      [
+        "Are any points specified where one is projected onto a circle from the other in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a point projection onto a circle?",
+        "F"
+      ]
+    ],
+    "mirror": [
+      [
+        "Does the image show a line segment with its midpoint?",
+        "F"
+      ],
+      [
+        "Is the midpoint specified for any line segment in the image?",
+        "F"
+      ],
+      [
+        "Is a line segment depicted as bisected by a point in the image?",
+        "F"
+      ]
+    ],
+    "right_iso": [
+      [
+        "Does the image show a right isosceles triangle?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any right isosceles triangle in the image?",
+        "F"
+      ],
+      [
+        "Is an isosceles triangle with a right angle depicted in the image?",
+        "F"
+      ]
+    ],
+    "on_bline": [
+      [
+        "Is there a point on the perpendicular bisector of a line segment in the image?",
+        "F"
+      ],
+      [
+        "Is any point specified on the perpendicular bisector of a line segment in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a point equidistant from segment endpoints?",
+        "F"
+      ]
+    ],
+    "on_circle_with_r": [
+      [
+        "Does the image show a circle with given center and radius through a point?",
+        "F"
+      ],
+      [
+        "Are the center and radius specified for any circle through a point in the image?",
+        "F"
+      ],
+      [
+        "Is a point depicted on a circle with given center and radius in the image?",
+        "F"
+      ]
+    ],
+    "on_circle": [
+      [
+        "Does the image show a point lying on a circle?",
+        "F"
+      ],
+      [
+        "Is the center specified for any circle with a point on it in the image?",
+        "F"
+      ],
+      [
+        "Is a point depicted on the circumference of a circle in the image?",
+        "F"
+      ]
+    ],
+    "on_line": [
+      [
+        "Is a point shown lying on a line in the image?",
+        "F"
+      ],
+      [
+        "Are the endpoints specified for any line with a point on it in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a point collinear with two other points?",
+        "F"
+      ]
+    ],
+    "on_pline": [
+      [
+        "Does the image show parallel lines equidistant from each other?",
+        "F"
+      ],
+      [
+        "Are any parallel lines specified as equidistant in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted that are always the same distance apart in the image?",
+        "F"
+      ]
+    ],
+    "parallelogram": [
+      [
+        "Is a parallelogram shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any parallelogram in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a quadrilateral with opposite sides parallel?",
+        "F"
+      ]
+    ],
+    "pentagon": [
+      [
+        "Does the image show a pentagon?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any pentagon in the image?",
+        "F"
+      ],
+      [
+        "Is a five-sided polygon depicted in the image?",
+        "F"
+      ]
+    ],
+    "trapezoid": [
+      [
+        "Is a trapezoid shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any trapezoid in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a quadrilateral with one pair of parallel sides?",
+        "F"
+      ]
+    ],
+    "r_triangle": [
+      [
+        "Does the image show a right triangle?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any right triangle in the image?",
+        "F"
+      ],
+      [
+        "Is a triangle with a 90-degree angle depicted in the image?",
+        "F"
+      ]
+    ],
+    "rectangle": [
+      [
+        "Is a rectangle shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any rectangle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a quadrilateral with four right angles?",
+        "F"
+      ]
+    ],
+    "reflect": [
+      [
+        "Does the image show a point reflected across a line to another point?",
+        "F"
+      ],
+      [
+        "Are the points and reflection line specified in the image?",
+        "F"
+      ],
+      [
+        "Is a point depicted as mirrored across a line to another point in the image?",
+        "F"
+      ]
+    ],
+    "square": [
+      [
+        "Is a square shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any square in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a quadrilateral with four equal sides and right angles?",
+        "F"
+      ]
+    ],
+    "triangle12": [
+      [
+        "Does the image show a triangle with a specific side length ratio?",
+        "F"
+      ],
+      [
+        "Is the ratio specified between any two sides of a triangle in the image?",
+        "F"
+      ],
+      [
+        "Are two sides of a triangle depicted in a given proportion in the image?",
+        "F"
+      ]
+    ],
+    "inf_tangent": [
+      [
+        "Is an infinite line tangent to a circle shown in the image?",
+        "F"
+      ],
+      [
+        "Are the center and point of tangency specified for any circle and infinite line in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a line touching a circle at one point and extending indefinitely?",
+        "F"
+      ]
+    ],
+    "tangent": [
+      [
+        "Does the image show a line tangent to a circle?",
+        "F"
+      ],
+      [
+        "Are any points specified for a line tangent to a circle in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted touching a circle at a single point in the image?",
+        "F"
+      ]
+    ],
+    "trisect": [
+      [
+        "Does the image show an angle divided into three equal parts by two lines?",
+        "F"
+      ],
+      [
+        "Are the lines and angles of any trisection specified in the image?",
+        "F"
+      ],
+      [
+        "Is an angle depicted as trisected by two lines in the image?",
+        "F"
+      ]
+    ],
+    "trisegment": [
+      [
+        "Is a line segment divided into three equal parts by two points shown in the image?",
+        "F"
+      ],
+      [
+        "Are any points specified that trisect a line segment in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a line segment divided into three equal parts by two points?",
+        "F"
+      ]
+    ],
+    "c_tangent_with_r": [
+      [
+        "Does the image show two lines from a point tangent to a circle with given radius?",
+        "F"
+      ],
+      [
+        "Are the points specified for lines tangent to a circle of given radius in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted from a point touching a circle with specified radius in the image?",
+        "F"
+      ]
+    ],
+    "c_tangent": [
+      [
+        "Does the image show two lines from a point tangent to a circle?",
+        "F"
+      ],
+      [
+        "Are any points specified for lines tangent to a circle in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted from a point touching a circle in the image?",
+        "F"
+      ]
+    ],
+    "cc_tangent": [
+      [
+        "Does the image show two lines tangent to two circles?",
+        "F"
+      ],
+      [
+        "Are the points and circles specified for any common tangent lines in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted each touching two circles at one point in the image?",
+        "F"
+      ]
+    ],
+    "cc_tangent_with_r": [
+      [
+        "Does the image show two circles with given centers and radii having common tangents?",
+        "F"
+      ],
+      [
+        "Are the points and radii specified for any circles with common tangents in the image?",
+        "F"
+      ],
+      [
+        "Are two circles of given centers and radii depicted touching two common lines in the image?",
+        "F"
+      ]
+    ],
+    "cc_tangent_one": [
+      [
+        "Does the image show a line touching two circles at one point each?",
+        "F"
+      ],
+      [
+        "Are the circles and tangent points specified for a line in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted tangent to two circles at a single point each in the image?",
+        "F"
+      ]
+    ],
+    "parallel": [
+      [
+        "Does the image show two parallel lines?",
+        "F"
+      ],
+      [
+        "Are any parallel lines specified in the image?",
+        "F"
+      ],
+      [
+        "Are two lines that never intersect depicted in the image?",
+        "F"
+      ]
+    ],
+    "intersect_ll": [
+      [
+        "Does the image show a point where two lines intersect?",
+        "F"
+      ],
+      [
+        "Are any intersecting lines and their intersection point specified in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted crossing each other in the image?",
+        "F"
+      ]
+    ],
+    "intersect_cl": [
+      [
+        "Does the image show two points where a circle and line intersect?",
+        "F"
+      ],
+      [
+        "Are the circle, line, and intersection points specified in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted crossing a circle at two points in the image?",
+        "F"
+      ]
+    ],
+    "intersect_cc": [
+      [
+        "Does the image show two points where two circles intersect?",
+        "F"
+      ],
+      [
+        "Are any intersecting circles and their intersection points specified in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted crossing at two points in the image?",
+        "F"
+      ]
+    ],
+    "touches_cc": [
+      [
+        "Does the image show two circles touching at a point?",
+        "F"
+      ],
+      [
+        "Are any tangent circles and their point of tangency specified in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted meeting at a single point in the image?",
+        "F"
+      ]
+    ],
+    "touches_clc": [
+      [
+        "Does the image show two circles tangent at a point on a line?",
+        "F"
+      ],
+      [
+        "Are the circles, line and tangent point specified in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted touching at a point that is also on a line in the image?",
+        "F"
+      ]
+    ],
+    "touches_cc2": [
+      [
+        "Does the image show two circles tangent at a point?",
+        "F"
+      ],
+      [
+        "Are any tangent circles and their point of tangency specified in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted touching at a single point in the image?",
+        "F"
+      ]
+    ],
+    "touches_clc2": [
+      [
+        "Does the image show two circles tangent to a line at different points?",
+        "F"
+      ],
+      [
+        "Are the circles, line and tangent points specified in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted touching a line at separate points in the image?",
+        "F"
+      ]
+    ],
+    "rhombus": [
+      [
+        "Does the image show a rhombus?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any rhombus in the image?",
+        "F"
+      ],
+      [
+        "Is a quadrilateral with four equal sides depicted in the image?",
+        "F"
+      ]
+    ],
+    "quadrilateral": [
+      [
+        "Is a quadrilateral shown in the image?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any quadrilateral in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a four-sided polygon?",
+        "F"
+      ]
+    ],
+    "convex_quadrilateral": [
+      [
+        "Does the image show a convex quadrilateral?",
+        "F"
+      ],
+      [
+        "Are the vertices specified for any convex quadrilateral in the image?",
+        "F"
+      ],
+      [
+        "Is a quadrilateral depicted with all interior angles less than 180 degrees in the image?",
+        "F"
+      ]
+    ],
+    "connect_center": [
+      [
+        "Does the image show two circles with centers connected by a line segment?",
+        "F"
+      ],
+      [
+        "Are the centers specified for any circles connected by a line segment in the image?",
+        "F"
+      ],
+      [
+        "Are two circles depicted with a line segment joining their centers in the image?",
+        "F"
+      ]
+    ],
+    "parabola": [
+      [
+        "Is a parabola-like curve shown in the image?",
+        "F"
+      ],
+      [
+        "Is the vertex specified for any parabola in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a U-shaped curve?",
+        "F"
+      ]
+    ],
+    "parabola_tangent": [
+      [
+        "Does the image show a line tangent to a parabola?",
+        "F"
+      ],
+      [
+        "Is the point of tangency specified between a parabola and line in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted touching a parabola at a single point in the image?",
+        "F"
+      ]
+    ],
+    "parab_line_intersect": [
+      [
+        "Does the image show two points where a parabola and line intersect?",
+        "F"
+      ],
+      [
+        "Are the intersection points specified between a parabola and line in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted crossing a parabola at two points in the image?",
+        "F"
+      ]
+    ],
+    "ellipse": [
+      [
+        "Is an ellipse with specified center and axes shown in the image?",
+        "F"
+      ],
+      [
+        "Are the center and axes specified for any ellipse in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict an oval-shaped curve with center and major/minor axes?",
+        "F"
+      ]
+    ],
+    "ellipse_line_intersect": [
+      [
+        "Does the image show two points where an ellipse and line intersect?",
+        "F"
+      ],
+      [
+        "Are the intersection points specified between an ellipse and line in the image?",
+        "F"
+      ],
+      [
+        "Is a line depicted crossing an ellipse at two points in the image?",
+        "F"
+      ]
+    ],
+    "random_curve": [
+      [
+        "Does the image show a curve without a specific name?",
+        "F"
+      ],
+      [
+        "Is any kind of curve present in the image?",
+        "F"
+      ],
+      [
+        "Is an unnamed curved line depicted in the image?",
+        "F"
+      ]
+    ],
+    "triangle_with_height": [
+      [
+        "Does the image show a triangle with a specified height?",
+        "F"
+      ],
+      [
+        "Are the vertices and height of any triangle specified in the image?",
+        "F"
+      ],
+      [
+        "Is a triangle depicted with an altitude segment in the image?",
+        "F"
+      ]
+    ],
+    "circle_with_radius": [
+      [
+        "Is a circle with specified center and radius shown in the image?",
+        "F"
+      ],
+      [
+        "Are the center and radius specified for any circle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a circle with given center and radius length?",
+        "F"
+      ]
+    ],
+    "circular_sector_with_radius": [
+      [
+        "Does the image show a circular sector with specified center, radius and angle?",
+        "F"
+      ],
+      [
+        "Are the center, radius and angle specified for any circular sector in the image?",
+        "F"
+      ],
+      [
+        "Is a slice of a circle depicted with given center, radius and angle in the image?",
+        "F"
+      ]
+    ],
+    "circular_sector": [
+      [
+        "Is a circular sector with specified center and angle shown in the image?",
+        "F"
+      ],
+      [
+        "Are the center and angle specified for any circular sector in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a slice of a circle with given center and angle?",
+        "F"
+      ]
+    ],
+    "semicircle_with_radius": [
+      [
+        "Does the image show a semicircle with a specified center and radius?",
+        "F"
+      ],
+      [
+        "Are the center and radius specified for any semicircle in the image?",
+        "F"
+      ],
+      [
+        "Is half of a circle depicted with a given center and radius in the image?",
+        "F"
+      ]
+    ],
+    "semicircle": [
+      [
+        "Is a semicircle with a specified center shown in the image?",
+        "F"
+      ],
+      [
+        "Is the center specified for any semicircle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict half of a circle with a given center?",
+        "F"
+      ]
+    ],
+    "l_in_c": [
+      [
+        "Does the image show a line inside a circle?",
+        "F"
+      ],
+      [
+        "Are any line and circle specified where the line is inside the circle in the image?",
+        "F"
+      ],
+      [
+        "Is a line segment depicted completely contained within a circle in the image?",
+        "F"
+      ]
+    ],
+    "l_out_c": [
+      [
+        "Is a line shown lying outside the boundaries of a circle in the image?",
+        "F"
+      ],
+      [
+        "Are any line and circle specified where the line is outside the circle in the image?",
+        "F"
+      ],
+      [
+        "Does the image depict a line segment completely outside a circle?",
+        "F"
+      ]
+    ],
+    "ll_angle": [
+      [
+        "Does the image show two lines intersecting at a specified angle?",
+        "F"
+      ],
+      [
+        "Are the lines, intersection point and angle specified in the image?",
+        "F"
+      ],
+      [
+        "Are two lines depicted crossing at a given angle in the image?",
+        "F"
+      ]
+    ]
   }
 
 }
