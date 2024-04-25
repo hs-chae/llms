@@ -34,8 +34,7 @@ entity_count = {key: 0 for key in caption_dict.keys()}
 with open('questions.json') as file:
     question_data = json.load(file)
     caption_question = question_data['caption']
-    TF_data = question_data['TF']
-    nTF_data = question_data['not_existing_TF']
+    eval_data = question_data['eval']
 
 
 
@@ -179,7 +178,7 @@ def diagram_data(diagram, i,j, directory, conversation):
 
 def generate_TF(entity):
     key = entity[0]
-    question, answer = random.choice(TF_data[key])
+    question, answer = random.choice(eval_data[key])
     inputs = entity[1]
     try:
         inputs.append(random.choice(capitals.candidates))
@@ -190,42 +189,24 @@ def generate_TF(entity):
     except: print(f"Error with entity : {entity} and type: TF")
 
 
-def generate_not_existin_TF(diagram):
-    ind = 0
-    entity_list = [entity[0] for entity in diagram.entities]
-    while True:
-        key = random.choice(list(entity_count.keys()))
-
-        if key not in entity_list:
-            break
-        if ind > 10:
-            raise ValueError("No non-existing entity found")
-        ind += 1
-
-
-    question, answer = random.choice(nTF_data[key])
-    print(f"question : {question}, answer : {answer}")
-    return question, answer
 
 
 def generate_full_conversation(diagram):
     conversation = []
     added_caption = False
-    max_num_rounds = 3
+    max_num_rounds = 1
     num_round = 0
     entnum = len(diagram.entities) if len(diagram.entities) > 0 else 1
-    TF_count = 0
+
     while num_round < max_num_rounds:
         try:
-            conv_type = random.choice(["TF","not_existing_TF"])
-            if conv_type == "TF" and TF_count < entnum + 1:
+            conv_type = "TF"
+            if conv_type == "TF" :
                 entity = random.choice(diagram.entities)
                 question, answer = generate_TF(entity)
-                TF_count += 1
 
-            else:
-                question, answer = generate_not_existin_TF(diagram)
 
+            else: question, answer = None, None
 
 
 
@@ -237,7 +218,7 @@ def generate_full_conversation(diagram):
                     "value": question
                 },
                 {
-                    "from": "assistant",
+                    "from": "gpt",
                     "value": answer
                 }]
             )

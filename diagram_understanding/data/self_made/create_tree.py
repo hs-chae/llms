@@ -30,11 +30,7 @@ rules_list = [rule for rule in rules_list if rule[1] not in ['random_angle', 'ra
 no_circle_rules = [rule for rule in rules_list if rule[1] not in ['add_free_circle', 'add_circle', 'circle_with_radius',]]
 
 test_rules = [
-
-
-    (add_free_circle, 'add_free_circle'),
-    (circle_proj, 'circle_proj'),
-
+    (tangent, 'tangent'),
     # (init_square, 'init_square')
               ]
 # (add_free_point,'add_free_point')

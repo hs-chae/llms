@@ -1057,11 +1057,18 @@ def on_bline(diagram: Diagram):
     return diagram
 
 def on_circle(diagram: Diagram):
-    O , A = random.sample(diagram.points, 2)
-    #Construct X such that  OX = OA
+    ind = 0
+    while True:
+        O , A = random.sample(diagram.points, 2)
+        #Construct X such that  OX = OA
 
-    vector = (A.x - O.x, A.y - O.y)
-    radius = (vector[0] ** 2 + vector[1] ** 2) ** 0.5
+        vector = (A.x - O.x, A.y - O.y)
+        radius = (vector[0] ** 2 + vector[1] ** 2) ** 0.5
+        if radius > 200:
+            break
+        if ind > 30:
+            return diagram
+        ind +=1
     angle_OA = np.arctan2(vector[1], vector[0])
     angle_OX = angle_OA + random.uniform(np.pi/6, 11*np.pi/6)
 

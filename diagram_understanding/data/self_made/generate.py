@@ -49,6 +49,8 @@ ax.set_ylim(0, 1000)
 #Plotting diagrams
 diagram = Diagram()
 add_free_point(diagram)
+add_free_point(diagram)
+add_free_point(diagram)
 # add_free_circle(diagram)
 # add_free_circle(diagram)
 
