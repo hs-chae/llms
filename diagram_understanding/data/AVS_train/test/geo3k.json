@@ -1,0 +1,10 @@
+[
+  {
+    "image_dir": "geometry3k/1.png",
+    "q": "Choose the sentence that best explains the image.\n(i) A line and a circle are tangent at point M.\n(ii) Angle AJL is obtuse.\n(iii) Line JL is shorter than the diameter of the circle.",
+    "a": "(ii)"
+  },
+  {
+    "image_dir":"geometry3k/2.png",
+
+]

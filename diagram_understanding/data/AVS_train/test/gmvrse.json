@@ -1,0 +1,41 @@
+[
+  {
+    "image_dir": "geomverse/5.jpeg",
+    "q": "Choose the sentence that best explains the image.\n(i) Among line HD, DE, and BA, line DH is the shortest.\n(ii)Among line HD, DE, and BA, line BA is the shortest.\n(iii) Among line HD, DE, and BA, line DE is the shortest.",
+    "a": "(ii)"
+  },
+  {
+    "image_dir":"geomverse/30.jpeg",
+    "q": "Choose the sentence that explain the image WORST.\n(i) Line JF and AE are parallel.\n(ii) Line CD and GF are parallel.\n(iii) Line CD and JI are perpendicular.",
+    "a": "(i)"
+  },
+  {
+    "image_dir":"geomverse/232.jpeg",
+    "q": "Choose the sentence that best explains the image.\n(i) Line HG and BC are parallel.\n(ii) Line HC and ED are parallel.\n(iii) Line BA and CD are parallel.",
+    "a": "(iii)"
+  },
+  {
+    "image_dir": "geomverse/619.jpeg",
+    "q": "Choose the sentence that explains the image WORST.\n(i) Line AB is shorter than line FH.\n(ii)Line JI is parallel to AD.\n(iii) Line CD is longer than BJ. ",
+    "a": "(ii)"
+  },
+  {
+    "image_dir": "geomverse/880.jpeg",
+    "q": "Choose the sentence that best explains the image.\n(i) Angle AFB is larger than DCB.\n(ii) Line BE and CF is parallel.\n(iii) Line AB and CE does not intersect.",
+    "a": "(iii)"
+  },
+  {
+    "image_dir": "geomverse/198.jpeg",
+    "original_q": "If the ABCDE shape is a rectangle where an equilateral triangle has been removed from one side of it, the perimeter of the ABCDE shape is 114 and the area of the FBC sector is 100.48, compute the length of the AB side of the ABCDE shape. Assume $\\pi=3.14$. Round computations to 2 decimal places.",
+    "original_a": "24.95",
+    "q": "Choose the sentence that best explains the image.\n(i) Angle AED is obtuse.\n(ii) Line AB is longer than Line DE.\n(iii) Angle CDE is obtuse.",
+    "a": "(ii)"
+  },
+  {
+    "image_dir": "geomverse/223.jpeg",
+    "original_q":  "If the area of the ABCD parallelogram is 84, compute the degree of the BAD angle. Round computations to 2 decimal places.",
+    "original_a": "33.37",
+    "q": "Choose the sentence that explains the image WORST.\n(i) Line DC and AB look parallel.\n(ii) Angle ADC is obtuse.\n(iii) The farthest point from D is B.",
+    "a": "(iii)"
+  }
+]
